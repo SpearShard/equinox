@@ -79,7 +79,7 @@ export default function ContactPage() {
 
       {/* Social grid */}
       <section className="mt-16">
-        <h2 className="text-center text-2xl sm:text-3xl font-semibold text-indigo-900">Equinox's Drones on Social</h2>
+        <h2 className="text-center text-2xl sm:text-3xl font-semibold text-indigo-900">Equinox&apos;s Drones on Social</h2>
         <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {/* Facebook */}
           <a href="https://www.facebook.com/equinoxsdrones" target="_blank" className="rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white p-8 text-center">
