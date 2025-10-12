@@ -89,7 +89,7 @@ export default function AboutPage() {
           </div>
           <div className="box relative bg-[#F3F4FA] flex justify-center items-center rounded-[10px] shadow-md p-[1vw] mx-auto w-fit">
             <h1 className="text-[#3502E3] text-lg font-semibold text-center leading-snug">
-              WE'RE THE BEST DRONE TECH COMPANY OF THE YEAR 2023
+              WE&apos;RE THE BEST DRONE TECH COMPANY OF THE YEAR 2023
             </h1>
           </div>
           <div className="three-boxes flex justify-center items-center gap-4 p-6">
@@ -105,7 +105,7 @@ export default function AboutPage() {
               </div>
               <div className="text mt-[1vw] text-black">
                 <h1>Nation Wide Operation</h1>
-                <p>Expanding our premier drone survey services nationwide, our deliverables have earned the staunch endorsement of numerous private firms and government agencies, reaffirming our offerings' technical excellence and reliability. Be a part of Equinox's Drones community to keep up the quality of your assets anywhere in India.</p>
+                <p>Expanding our premier drone survey services nationwide, our deliverables have earned the staunch endorsement of numerous private firms and government agencies, reaffirming our offerings&apos; technical excellence and reliability. Be a part of Equinox&apos;s Drones community to keep up the quality of your assets anywhere in India.</p>
               </div>
             </div>
 
