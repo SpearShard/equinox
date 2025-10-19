@@ -21,7 +21,10 @@ function ChevronDown({ open }: { open?: boolean }) {
 export default function Nav() {
   const pathname = usePathname();
   const [openMenu, setOpenMenu] = useState<string | null>(null);
-  const navRef = useRef<HTMLElement | null>(null);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const navRef = useRef<HTMLDivElement | null>(null);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [mobileIndustriesOpen, setMobileIndustriesOpen] = useState(false);
 
   const isServices = pathname.startsWith("/services");
   const isIndustries = pathname.startsWith("/industries");
@@ -39,6 +42,7 @@ export default function Nav() {
       if (!target) return;
       if (navRef.current && !navRef.current.contains(target)) {
         setOpenMenu(null);
+        setMobileOpen(false);
       }
     }
 
@@ -63,7 +67,25 @@ export default function Nav() {
                       />
             Equinox Aviation
           </Link>
-          <nav ref={navRef} className="hidden sm:flex items-center gap-3" aria-label="Primary">
+          <div ref={navRef} className="flex items-center gap-3">
+            {/* Mobile hamburger - visible on small screens */}
+            <button
+              type="button"
+              className="sm:hidden inline-flex items-center justify-center p-2 rounded-md hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-slate-200"
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-menu"
+              aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+              onClick={() => setMobileOpen((v) => !v)}
+            >
+              <span className="sr-only">Toggle navigation</span>
+              <svg className="w-6 h-6 text-slate-700" viewBox="0 0 24 24" fill="none" aria-hidden>
+                <rect x="3" y="5" width="18" height="2" rx="1" fill="currentColor" />
+                <rect x="3" y="11" width="18" height="2" rx="1" fill="currentColor" />
+                <rect x="3" y="17" width="18" height="2" rx="1" fill="currentColor" />
+              </svg>
+            </button>
+
+            <nav className="hidden sm:flex items-center gap-3" aria-label="Primary">
             <Link href="/" className={`${linkBase} ${pathname === "/" ? activeBase : ""}`}>Home</Link>
 
             <div className="relative">
@@ -113,7 +135,56 @@ export default function Nav() {
             <Link href="/about" className={`${linkBase} ${pathname === "/about" ? activeBase : ""}`}>About Us</Link>
             <Link href="/careers" className={`${linkBase} ${pathname === "/careers" ? activeBase : ""}`}>Careers</Link>
             <Link href="/contact" className={`${linkBase} ${pathname === "/contact" ? activeBase : ""}`}>Contact Us</Link>
-          </nav>
+            </nav>
+
+            {/* Mobile menu panel */}
+            <div id="mobile-menu" className={`${mobileOpen ? 'block' : 'hidden'} sm:hidden absolute inset-x-4 top-16 bg-white border border-slate-200 rounded-xl shadow-xl p-4 z-40 max-h-[calc(100vh-4rem)] overflow-auto`}>
+              <div className="flex flex-col gap-2">
+                <Link href="/" onClick={() => setMobileOpen(false)} className="px-3 py-2 rounded-md text-slate-800">Home</Link>
+                <div>
+                  <button
+                    type="button"
+                    onClick={() => setMobileServicesOpen((v) => !v)}
+                    className="w-full flex items-center justify-between px-3 py-2 font-medium text-slate-800"
+                    aria-expanded={mobileServicesOpen}
+                  >
+                    <span>Services</span>
+                    <span className={`transform transition-transform ${mobileServicesOpen ? 'rotate-180' : ''}`} aria-hidden>▾</span>
+                  </button>
+                  <div className={`${mobileServicesOpen ? 'block' : 'hidden'} pl-3 flex flex-col`}>
+                    <Link href="/services/surveying-mapping" onClick={() => { setMobileOpen(false); setMobileServicesOpen(false); }} className="py-1 text-slate-700">Surveying/Mapping</Link>
+                    <Link href="/services/aerial-inspection-analysis" onClick={() => { setMobileOpen(false); setMobileServicesOpen(false); }} className="py-1 text-slate-700">Aerial Inspection & Analysis</Link>
+                    <Link href="/services/uav-data-processing" onClick={() => { setMobileOpen(false); setMobileServicesOpen(false); }} className="py-1 text-slate-700">UAV Data Processing</Link>
+                    <Link href="/services/creative-aerial-content" onClick={() => { setMobileOpen(false); setMobileServicesOpen(false); }} className="py-1 text-slate-700">Creative Aerial Content</Link>
+                  </div>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    onClick={() => setMobileIndustriesOpen((v) => !v)}
+                    className="w-full flex items-center justify-between px-3 py-2 font-medium text-slate-800"
+                    aria-expanded={mobileIndustriesOpen}
+                  >
+                    <span>Industries</span>
+                    <span className={`transform transition-transform ${mobileIndustriesOpen ? 'rotate-180' : ''}`} aria-hidden>▾</span>
+                  </button>
+                  <div className={`${mobileIndustriesOpen ? 'block' : 'hidden'} pl-3 flex flex-col`}>
+                    <Link href="/industries/transportation" onClick={() => { setMobileOpen(false); setMobileIndustriesOpen(false); }} className="py-1 text-slate-700">Transportation</Link>
+                    <Link href="/industries/renewable-energy" onClick={() => { setMobileOpen(false); setMobileIndustriesOpen(false); }} className="py-1 text-slate-700">Renewable Energy</Link>
+                    <Link href="/industries/mining" onClick={() => { setMobileOpen(false); setMobileIndustriesOpen(false); }} className="py-1 text-slate-700">Mining</Link>
+                    <Link href="/industries/utilities" onClick={() => { setMobileOpen(false); setMobileIndustriesOpen(false); }} className="py-1 text-slate-700">Utilities</Link>
+                    <Link href="/industries/infrastructure" onClick={() => { setMobileOpen(false); setMobileIndustriesOpen(false); }} className="py-1 text-slate-700">Infrastructure</Link>
+                    <Link href="/industries/agriculture" onClick={() => { setMobileOpen(false); setMobileIndustriesOpen(false); }} className="py-1 text-slate-700">Agriculture</Link>
+                    <Link href="/industries/real-estate" onClick={() => { setMobileOpen(false); setMobileIndustriesOpen(false); }} className="py-1 text-slate-700">Real Estate</Link>
+                    <Link href="/industries/oil-and-gas" onClick={() => { setMobileOpen(false); setMobileIndustriesOpen(false); }} className="py-1 text-slate-700">Oil and Gas</Link>
+                  </div>
+                </div>
+                <Link href="/about" onClick={() => setMobileOpen(false)} className="px-3 py-2 rounded-md text-slate-800">About Us</Link>
+                <Link href="/careers" onClick={() => setMobileOpen(false)} className="px-3 py-2 rounded-md text-slate-800">Careers</Link>
+                <Link href="/contact" onClick={() => setMobileOpen(false)} className="px-3 py-2 rounded-md text-slate-800">Contact Us</Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>

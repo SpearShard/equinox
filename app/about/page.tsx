@@ -39,7 +39,7 @@ export default function AboutPage() {
   return (
     <>
       <div className="min-h-screen">
-        <div className="first-page h-[100vh] relative flex items-center justify-center px-12 bg-gray-100">
+        <div className="max-sm:p-[5vw] max-sm:h-auto max-sm:bg-white h-[100vh] relative flex items-center justify-center px-12 bg-gray-100">
           {/* Background Image */}
           <Image
             src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus1.svg"
@@ -55,18 +55,18 @@ export default function AboutPage() {
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full max-w-[1200px] gap-8">
 
             {/* Text Section */}
-            <div className="md:w-1/2 w-full text-white space-y-6">
-              <h1 className="text-5xl md:text-6xl font-bold text-[#3D2D72]">
+            <div className=" max-sm:w-screen max-sm:p-[5vw] max-sm: md:w-1/2 w-full   max-sm:space-y-[0]  text-white space-y-6">
+              <h1 className="max-sm:text-[10vw] text-5xl md:text-6xl font-bold text-[#3D2D72]">
                 About Us
               </h1>
-              <p className="text-lg md:text-xl text-black leading-relaxed">
+              <p className="max-sm:mt-[7vw]  text-lg md:text-xl text-black leading-relaxed">
                 Ascend to new heights with premier UAV services and unleash the full potential of technology,
                 including comprehensive drone survey solutions, through our trusted services.
               </p>
             </div>
 
             {/* Image Section */}
-            <div className="md:w-1/2 w-full h-[400px] md:h-[500px] relative">
+            <div className=" max-sm:h-[60vw] md:w-1/2 w-full h-[400px] md:h-[500px] relative">
               <Image
                 src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus2.svg"
                 alt="About Us"
@@ -79,23 +79,23 @@ export default function AboutPage() {
 
 
         <div className="second-page bg-white">
-          <div className="relative flex justify-center items-center h-[5vw] ">
+          {/* <div className="relative flex justify-center items-center h-[5vw] ">
             <Image
               src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus3.svg"
               alt="About Us"
               fill
               className="object-contain"
             />
-          </div>
+          </div> */}
           <div className="box relative bg-[#F3F4FA] flex justify-center items-center rounded-[10px] shadow-md p-[1vw] mx-auto w-fit">
             <h1 className="text-[#3502E3] text-lg font-semibold text-center leading-snug">
               WE&apos;RE THE BEST DRONE TECH COMPANY OF THE YEAR 2023
             </h1>
           </div>
-          <div className="three-boxes flex justify-center items-center gap-4 p-6">
+          <div className="max-sm:flex max-sm:flex-col max-sm:relative three-boxes flex justify-center items-center gap-4 p-6">
             {/* Box 1 */}
-            <div className=" p-[1vw] box1 relative w-1/3  rounded-lg overflow-hidden">
-              <div className=" relative image h-[10vw]">
+            <div className="max-sm:p-[3vw]  max-sm:w-full p-[1vw] box1 relative w-1/3  rounded-lg overflow-hidden">
+              <div className="max-sm:h-[30vw]  relative image h-[10vw]">
                 <Image
                   src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus4.svg"
                   alt="About Us"
@@ -110,8 +110,8 @@ export default function AboutPage() {
             </div>
 
             {/* Box 2 */}
-            <div className=" p-[1vw] box2 relative  w-1/3  rounded-lg overflow-hidden">
-              <div className="relative image h-[10vw]">
+            <div className="max-sm:p-[3vw]  max-sm:w-full p-[1vw] box2 relative  w-1/3  rounded-lg overflow-hidden">
+              <div className="max-sm:h-[30vw] relative image h-[10vw]">
                 <Image
                   src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus5.svg"
                   alt="About Us"
@@ -126,8 +126,8 @@ export default function AboutPage() {
             </div>
 
             {/* Box 3 */}
-            <div className=" p-[1vw] box3 relative  w-1/3  rounded-lg overflow-hidden">
-              <div className="relative h-[10vw]">
+            <div className="max-sm:p-[3vw]  max-sm:w-full p-[1vw] box3 relative  w-1/3  rounded-lg overflow-hidden">
+              <div className="max-sm:h-[30vw] relative h-[10vw]">
                 <Image
                   src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus6.svg"
                   alt="About Us"
@@ -144,13 +144,13 @@ export default function AboutPage() {
 
         </div>
         <div className="third-page">
-          <div className="relative h-[50vh] w-full">
+          <div className="max-sm:bg-red-500 max-sm:h-[30vh]  relative h-[50vh] w-full">
             {/* Background Image */}
             <Image
               src="https://equinoxsdrones.com/wp-content/uploads/2024/11/website-02-1536x260.png"
               alt="Our Mission"
               fill
-              className="object-cover"
+              className="object-cover max-sm:object-fill"
             />
 
             {/* Dark overlay */}
@@ -158,8 +158,8 @@ export default function AboutPage() {
 
             {/* Content */}
             <div className="absolute inset-0 flex flex-col justify-center items-center px-6 text-center text-white">
-              <h1 className="text-[3vw] font-bold mb-4">Our Mission</h1>
-              <p className="text-[1.5vw] w-[80%] md:w-[70%] lg:w-[60%]">
+              <h1 className="text-[3vw] max-sm:text-[10vw] font-bold mb-4">Our Mission</h1>
+              <p className="max-sm:text-[3.7vw] max-sm:w-full text-[1.5vw] w-[80%] md:w-[70%] lg:w-[60%]">
                 We aim to innovate and integrate drone solutions into scalable real-world applications,
                 and we are among the best drone companies in Bangalore. We provide aerial solutions by
                 delivering high-quality geospatial solutions with speed, accuracy, and innovation to both
@@ -169,8 +169,8 @@ export default function AboutPage() {
           </div>
 
 
-          <div className="text bg-white flex justify-center items-center">
-            <div className="w-[70vw] text-[1.5vw] flex flex-col relative bg-white p-[2vw] text-black gap-[2vw] text-center">
+          <div className=" text bg-white flex justify-center items-center">
+            <div className="max-sm:text-[5vw] max-sm:text-left max-sm:p-[5vw] max-sm:w-full w-[70vw] text-[1.5vw] flex flex-col relative bg-white p-[2vw] text-black gap-[2vw] text-center">
               <h1>Equinox Drones Pvt Ltd. is a flourishing startup founded by Ashish Aman(CEO). Headquartered in the ‘Silicon Valley’ of India, the company continues its primary operations from Bangalore, Karnataka. Awarded as the best drone company in 2019 and best Drone Tech Company in 2023. We continue to yield the utmost quality in drone surveys.</h1>
               <h1>With more than ten years of experience and expertise in drone technology, collective wisdom and capabilities are invested in projects to accomplish the maximum potential of our client’s vision. Consistent and unsurpassed aerial service personnel, modern equipment and essential software are a few of our prized possessions.</h1>
               <h1>With more than 15 dedicated teams strategically positioned throughout India, we have completed over 500 projects, encompassing an impressive 1 Lakh+ acres of land in a relatively short time frame. Our project begins with comprehensive R&D, followed by innovative data processing & content delivery at competitive prices and significant accuracy. Thoroughly trained and licensed professionals work tirelessly to ensure that the required services are swiftly delivered. Moreover, as one of the best drone companies in Bangalore, our commitment to excellence and pioneering solutions continues to drive our success.</h1>

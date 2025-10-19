@@ -42,8 +42,8 @@ export default function TransportationPage() {
 
   return (
     <>
-      <div className="min-h-screen bg-white">
-        <div className="relative h-screen w-screen">
+      <div className="max-sm:overflow-x-hidden max-sm:relative min-h-screen bg-white">
+        <div className="max-sm:flex max-sm:items-center  relative h-screen w-screen">
           {/* Background image */}
           <div
             className="absolute inset-0 bg-cover bg-center"
@@ -54,21 +54,21 @@ export default function TransportationPage() {
           ></div>
 
           {/* Dark overlay for contrast */}
-          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 max-sm:bg-black/60 bg-black/40"></div>
 
           {/* Content */}
-          <div className="relative h-full flex flex-col justify-start pl-16 pt-40 text-white z-10">
-            <h1 className="text-6xl font-bold mb-2">Railways</h1>
-            <h2 className="text-2xl font-medium mb-4">Connecting Tracks with Aerial Precision</h2>
+          <div className=" max-sm:h-auto lg:justify-center max-sm:p-[5vw] relative h-full flex flex-col justify-start pl-[12vw]  text-white z-10">
+            <h1 className="lg:text-[3vw]  max-sm:text-[10vw] max-sm:w-full text-6xl font-bold mb-2">Railways</h1>
+            <h2 className="max-sm:text-[5vw] text-2xl font-medium mb-4">Save time, Increase efficiency, ensure safety with Our Drone powered solutions</h2>
           </div>
         </div>
 
-        <div className="bg-white px-12 py-16 max-w-[73vw] mx-auto">
+        <div className=" max-sm:mx-[0] max-sm:w-[100vw] max-sm:p-[5vw] bg-white px-12 py-16 w-[73vw] mx-auto">
           {/* Title */}
-          <h1 className="text-[1.5vw] text-center font-bold text-[#3D2D72] mb-6">Drone survey, inspection and monitoring for the Transport industry</h1>
+          <h1 className="max-sm:text-[7vw] text-[1.5vw] text-center font-bold text-[#3D2D72] mb-6">Drone survey, inspection and monitoring for the Transport industry</h1>
 
           {/* Paragraphs */}
-          <div className="text-gray-700 text-lg space-y-4 mb-8">
+          <div className="max-sm:text-[5vw] text-gray-700 text-lg space-y-4 mb-8">
             <p>
               Equinox’s Drones offer a cutting-edge drone solution for the railway and roadways industry. We have helped various railways and roadways agencies in project planning, project construction monitoring, and inspection of railway and roadways infrastructure. We conduct aerial surveys, inspections, and monitoring using high-end surveying drones equipped with high-resolution sensors for superior data quality with up to centimeter-level accuracy. Our dedicated team of seasoned drone pilots and GIS experts works tirelessly to consistently deliver optimal results, often ahead of schedule. We provide aerial survey data like orthophotos, elevation models, terrain models, 3D models, thermographic data, and more with very high accuracy, helping to maximize efficiency and ensure accountability in railways and highways projects.
             </p>
@@ -81,14 +81,14 @@ export default function TransportationPage() {
           </div>
         </div>
 
-        <div className="w-full bg-white py-12 px-8">
+        <div className=" max-sm:relative max-sm:p-[5vw] w-full bg-white py-12 px-8">
           {/* Top Tabs Section */}
-          <div className="flex justify-between items-center mb-12">
+          <div className=" max-sm:flex-col max-sm:gap-[3vw] flex justify-between items-center mb-12">
             <div className="flex space-x-6">
               <button
                 onClick={() => setActiveTab("railways")}
-                className={`px-6 py-2 text-lg font-semibold border-b-4 ${activeTab === "railways"
-                  ? "border-purple-600 text-purple-600"
+                className={`relative z-[0] px-6 py-2 h-[4vw] text-lg font-semibold  ${activeTab === "railways"
+                  ? "max-sm:h-full border-purple-600 text-white bg-[#9810FA]"
                   : "border-transparent text-gray-600 hover:text-purple-500"
                   }`}
               >
@@ -97,7 +97,7 @@ export default function TransportationPage() {
               <button
                 onClick={() => setActiveTab("roadways")}
                 className={`px-6 py-2 text-lg font-semibold border-b-4 ${activeTab === "roadways"
-                  ? "border-purple-600 text-purple-600"
+                  ? "border-purple-600 bg-[#9810FA] text-white"
                   : "border-transparent text-gray-600 hover:text-purple-500"
                   }`}
               >
@@ -249,79 +249,76 @@ export default function TransportationPage() {
           </div>
         </div>
 
-        <div className="w-[76vw] mx-auto bg-white shadow-xl p-8 flex flex-col md:flex-row items-center md:items-center gap-6">
+        <div className=" max-sm:w-screen w-[76vw] mx-auto bg-white shadow-xl p-8 flex flex-col md:flex-row items-center md:items-center gap-6">
           {/* Left content */}
           <div className="flex-1">
             <span className="text-purple-600 font-semibold text-sm uppercase mb-2 inline-block">
               Get in Touch
             </span>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+            <h2 className="max-sm:text-[5vw] text-2xl md:text-3xl font-bold text-gray-900">
               Maximize efficiency in your Highway Project and Ensure structural integrity of Highway infrastructure.
             </h2>
           </div>
 
           {/* Right content */}
           <div className="flex-shrink-0">
-            <button className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors duration-300">
+            <button className="max-sm:text-[4vw] bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors duration-300">
               Contact Us for a Demo
             </button>
           </div>
         </div>
-        
+
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start gap-8 p-8">
-  {/* Left: YouTube video */}
-  <div className="flex-1">
-    <iframe
-      className="w-full h-64 md:h-96 rounded-lg shadow-lg"
-      src="https://www.youtube.com/embed/AA8MdlRXYKw?si=lE5x-o_EnwyqcSvA"
-      title="YouTube video"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
+          {/* Left: YouTube video */}
+          {/* <div className="flex-1">
+            <iframe
+              className="w-full h-64 md:h-96 rounded-lg shadow-lg"
+              src="https://www.youtube.com/embed/AA8MdlRXYKw?si=lE5x-o_EnwyqcSvA"
+              title="YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div> */}
 
-  {/* Right: Text content */}
-  <div className="flex-1 flex flex-col">
-    {/* Title */}
-    <h2 className="text-3xl text-[#3D2D72] font-bold mb-2">Benefits of our Drone Powered solution for Roadways</h2>
-    {/* Purple line */}
-    <div className="w-[12vw] mx-auto h-1 bg-[#734EEC] mb-6"></div>
+          {/* Right: Text content */}
+          <div className=" flex-1 flex flex-col">
+            {/* Title */}
+            <h2 className=" max-sm:w-full max-sm:text-[6vw] text-3xl text-[#3D2D72] font-bold mb-2">Benefits of our Drone Powered solution for Roadways</h2>
+            {/* Purple line */}
+            <div className="w-[12vw] mx-auto h-1 bg-[#734EEC] mb-6"></div>
 
-    {/* Bullet points */}
-    <ul className="flex flex-col gap-4">
-      {[
-        "Drones offer superior resolution for inspections than ground-based methods.",
-        "Increase efficiency with high-resolution data in a very timely manner with thermal/4k capabilities",
-        "Safely monitor and inspect the condition of Highways without endangering any personnel",
-        "Save cost, time and resources with Drone Survey & Inspection compared to ground-based approach",
-        "Keep track of all the construction materials with AI and Drones",
-      ].map((point, index) => (
-        <li key={index} className="flex items-center gap-3">
-          {/* Purple circle with white tick */}
-          <div className="w-6 h-6 flex-shrink-0 bg-[#734EEC] rounded-full flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-4 w-4 text-white"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414L8.414 15 3.293 9.879a1 1 0 111.414-1.414L8.414 12.586l7.879-7.879a1 1 0 011.414 0z"
-                clipRule="evenodd"
-              />
-            </svg>
+            {/* Bullet points */}
+            <ul className="flex flex-col gap-4">
+              {[
+                "Drones offer superior resolution for inspections than ground-based methods.",
+                "Increase efficiency with high-resolution data in a very timely manner with thermal/4k capabilities",
+                "Safely monitor and inspect the condition of Highways without endangering any personnel",
+                "Save cost, time and resources with Drone Survey & Inspection compared to ground-based approach",
+                "Keep track of all the construction materials with AI and Drones",
+              ].map((point, index) => (
+                <li key={index} className="flex items-center gap-3">
+                  {/* Purple circle with white tick */}
+                  <div className="w-6 h-6 flex-shrink-0 bg-[#734EEC] rounded-full flex items-center justify-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 text-white"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414L8.414 15 3.293 9.879a1 1 0 111.414-1.414L8.414 12.586l7.879-7.879a1 1 0 011.414 0z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  {/* Text */}
+                  <span className="text-gray-800">{point}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-          {/* Text */}
-          <span className="text-gray-800">{point}</span>
-        </li>
-      ))}
-    </ul>
-  </div>
-</div>
-
-
-
+        </div>
       </div>
     </>
   );

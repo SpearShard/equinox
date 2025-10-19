@@ -40,58 +40,58 @@ export default function WhitePage() {
   return (
     <div className=" bg-white min-h-screen w-full overflow-x-hidden">
       {/* Hero section with background image */}
-      <div className="relative w-full h-[100vh] overflow-hidden">
+      <div className=" relative w-full h-[100vh] overflow-hidden">
         <Image
           src='/banner.svg'
           alt="here is the bg"
           fill
-          className="object-cover object-center"
+          className="object-cover max-sm:mt-[50vw]  object-center"
         />
         {/* Content on top of image */}
-        <div className="absolute top-[5vw] left-[3vw] w-[43vw] ">
-        <h1 className="leading-[1.2] text-[#3D2D72] text-[2vw] font-bold p-4">
-          Transforming Possibilities with India’s Top <br /> Drone Technology Partner
+        <div className="max-sm:mt-[25vw] absolute top-[5vw] left-[3vw] w-[43vw] ">
+        <h1 className="leading-[1.2] max-sm:text-[5vw] max-sm:bg-red-500 max-sm:w-[94vw] max-sm:top:10% text-[#3D2D72] text-[2vw] font-bold p-4">
+          Transforming Possibilities with India’s Top  Drone Technology Partner
         </h1>
-        <p className="text-gray-700 px-4 pb-8">
+        <p className="text-gray-700 px-4 max-sm:w-screen pb-8">
           Delivering precise aerial insights through drone surveys and mapping
           that are efficient, affordable, and reliable, helping businesses
           optimize operations and manage key assets effectively.
         </p>
-        <button className="text-[1vw] bg-[#734EEC] ml-[0.8vw] text-white rounded-[50px] px-[1.5vw] py-[0.5vw]">
+        <button className="max-sm:text-[4vw] max-sm:px-[5vw] max-sm:py-[2vw] text-[1vw] bg-[#734EEC] ml-[0.8vw] text-white rounded-[50px] px-[1.5vw] py-[0.5vw]">
           Get Started
         </button>
       </div>
       </div>
       {/* Boxes beneath the hero section */}
-      <div className="-mt-[10vw] relative z-2 px-[3vw]">
-        <div className="flex  gap-[5vw] justify-center">
-          <div className="w-57 p-4 h-70 bg-white flex flex-col shadow-lg rounded-lg flex items-center justify-center">
-            <Image src='/drone.png' alt="box1" width={58} height={48} />
-            <h1 className="text-[2vw] text-[#734EEC] font-bold">10X</h1>
-            <h3 className="text-[1.1vw] text-black text-blackfont-bold">Faster Data Acquisition</h3>
-            <p className="text-[0.8vw] text-center text-black">Our qualified drone pilots and high-end UAV surveying and inspection allow us to procure data 10x faster than other traditional methods.</p>
+      <div className="-mt-[10vw] relative z-2 px-[3vw]  max-sm:items-center max-sm:px-[0vw]">
+        <div className="flex items-center max-sm:bg-red-500 max-sm:w-screen max-sm:flex-col max-sm:mt-[10vw]   gap-[5vw] justify-center">
+          <div className="max-sm:w-[90vw]  max-sm:justify-center max-sm:bg-red-200 w-57 p-4 h-70 bg-white flex flex-col shadow-lg rounded-lg flex items-center justify-center">
+            <Image src='/drone.png' className="max-sm:w-[25vw]" alt="box1" width={58} height={48} />
+            <h1 className="max-sm:text-[7vw]  text-[2vw] text-[#734EEC] font-bold">10X</h1>
+            <h3 className="max-sm:text-[6vw] text-[1.1vw] text-black text-blackfont-bold">Faster Data Acquisition</h3>
+            <p className="max-sm:text-[5vw] max-sm:leading-[5vw] text-[0.8vw] text-center text-black">Our qualified drone pilots and high-end UAV surveying and inspection allow us to procure data 10x faster than other traditional methods.</p>
           </div>
-          <div className="w-57 h-70 bg-white shadow-lg rounded-lg flex flex-col p-4 items-center justify-center">
-            <Image src='data:image/png;base64,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' alt="box1" width={58} height={48} />
-            <h1 className="text-[2vw] text-[#734EEC] font-bold">99%</h1>
-            <h3 className="text-[1.1vw] text-black text-blackfont-bold">Accurate Survey</h3>
-            <p className="text-[0.8vw] text-center text-black">We use machine learning, comprehensive UAV surveying, and mapping to produce up to 99% accurate volumetric measurements and yield estimation.</p>
+          <div className="max-sm:w-[90vw]  max-sm:bg-red-200 w-57 h-70 bg-white shadow-lg rounded-lg flex flex-col p-4 items-center justify-center">
+            <Image className="max-sm:w-[25vw]" src='data:image/png;base64,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' alt="box1" width={58} height={48} />
+            <h1 className="text-[2vw] max-sm:text-[7vw] text-[#734EEC] font-bold">99%</h1>
+            <h3 className="max-sm:text-[6vw] text-[1.1vw] text-black text-blackfont-bold">Accurate Survey</h3>
+            <p className="max-sm:text-[5vw] max-sm:leading-[5vw] text-[0.8vw] text-center text-black">We use machine learning, comprehensive UAV surveying, and mapping to produce up to 99% accurate volumetric measurements and yield estimation.</p>
           </div>
-          <div className="w-57 h-70 bg-white shadow-lg rounded-lg flex flex-col p-4 items-center justify-center">
-            <Image src='data:image/png;base64,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' alt="box1" width={58} height={48} />
-            <h1 className="text-[2vw] text-[#734EEC] font-bold">Leading</h1>
-            <h3 className="text-[1.1vw] text-black text-blackfont-bold">in Industry</h3>
-            <p className="text-[0.8vw] text-center text-black">We have triumphantly earned our place in the drone industry through exceptional performance and dedication. We received the award for the Best Drone Tech Company of the year in 2023.</p>
+          <div className="max-sm:w-[90vw]  max-sm:bg-red-200 w-57 h-70 bg-white shadow-lg rounded-lg flex flex-col p-4 items-center justify-center">
+            <Image className="max-sm:w-[25vw]" src='data:image/png;base64,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' alt="box1" width={58} height={48} />
+            <h1 className=" max-sm:text-[7vw] text-[2vw] text-[#734EEC] font-bold">Leading</h1>
+            <h3 className="max-sm:text-[6vw] text-[1.1vw] text-black text-blackfont-bold">in Industry</h3>
+            <p className="max-sm:text-[5vw] max-sm:leading-[5vw] text-[0.8vw] text-center text-black">We have triumphantly earned our place in the drone industry through exceptional performance and dedication. We received the award for the Best Drone Tech Company of the year in 2023.</p>
           </div>
         </div>
       </div>
 
-      <div className="flex  pt-[3vw] gap-[2vw]">
+      <div className="flex max-sm:bg-blue-200 max-sm:flex-col  pt-[3vw] gap-[2vw]">
         <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/about-us-banner1-768x512.png' alt="shape" width={846} height={564} />
-        <div className="  w-[30vw]">
-          <h1 className="text-[2vw] text-[#734EEC] font-bold">We Are Equinox&apos;s Drones.</h1>
-          <h2 className="text-[1.5vw] text-black font-bold">About Us</h2>
-          <p className="text-[1.3vw] text-black">Endeavoring to deliver innovative data processes and content delivery, our drone survey company in India provides aerial solutions by delivering high-quality Geo-Spatial solutions backed with enhanced speed and precision for both the public and private sectors. We offer highly accurate and detailed GIS Surveying, drone inspection, mining services, flood assessment, crop health monitoring, topographic survey, UAV data processing, 3D mapping, and aerial photography. Our qualified personnel include wind turbine experts. We provide specialized drone services for projects across India and have earned the knowledge and skills to accomplish them through experience, teamwork, and reliable equipment. As one of the best drone companies in India, we excel in drone mapping and surveying, offering top-tier drone mapping services near you. </p>
+        <div className=" max-sm:bg-blue-300 max-sm:p-[5vw] max-sm:w-full  w-[30vw]">
+          <h1 className="max-sm:text-[9vw] max-sm:leading-[9vw] text-[2vw] text-[#734EEC] font-bold">We Are Equinox&apos;s Drones.</h1>
+          <h2 className="max-sm:text-[8vw] text-[1.5vw] text-black font-bold">About Us</h2>
+          <p className="max-sm:text-[5vw] text-[1.3vw] text-black">Endeavoring to deliver innovative data processes and content delivery, our drone survey company in India provides aerial solutions by delivering high-quality Geo-Spatial solutions backed with enhanced speed and precision for both the public and private sectors. We offer highly accurate and detailed GIS Surveying, drone inspection, mining services, flood assessment, crop health monitoring, topographic survey, UAV data processing, 3D mapping, and aerial photography. Our qualified personnel include wind turbine experts. We provide specialized drone services for projects across India and have earned the knowledge and skills to accomplish them through experience, teamwork, and reliable equipment. As one of the best drone companies in India, we excel in drone mapping and surveying, offering top-tier drone mapping services near you. </p>
           <Link
             href="/learn-more"
             className="group inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
@@ -103,25 +103,25 @@ export default function WhitePage() {
       </div>
 
       {/* Feature boxes section - beneath blue section */}
-      <div className="w-full px-[3vw] py-[4vw]">
+      <div className="w-full px-[3vw] py-[4vw] max-sm:px-[0]">
         <div className="mx-auto max-w-[1400px]">
-          <div className="flex flex-nowrap justify-between gap-[2vw]">
-            <div className="w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
+          <div className="flex max-sm:items-center max-sm:p-[2vw]   max-sm:bg-red-200 max-sm:flex-col max-sm:w-screen max-sm: flex-nowrap justify-between gap-[2vw]">
+            <div className="max-sm:w-[90vw] w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
               <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/land-surveyed.svg' alt="drone" width={70} height={50} className="mb-3" />
               <h3 className="text-lg font-semibold text-black mb-2">1 Lakh+</h3>
               <p className="text-sm text-gray-600">ACRES LAND SURVEYED</p>
             </div>
-            <div className="w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
+            <div className="max-sm:w-[90vw] w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
               <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/projects-done.svg' alt="drone" width={70} height={50} className="mb-3" />
               <h3 className="text-lg font-semibold text-black mb-2">500+</h3>
               <p className="text-sm text-gray-600">PROJECTS DONE</p>
             </div>
-            <div className="w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
+            <div className="max-sm:w-[90vw] w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
               <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/image-processing.svg' alt="drone" width={70} height={50} className="mb-3" />
               <h3 className="text-lg font-semibold text-black mb-2">10 Lakhs+</h3>
               <p className="text-sm text-gray-600">IMAGE PROCESSED</p>
             </div>
-            <div className="w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
+            <div className="max-sm:w-[90vw] w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
               <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/flight-mission.svg' alt="drone" width={70} height={50} className="mb-3" />
               <h3 className="text-lg font-semibold text-black mb-2">10,000+</h3>
               <p className="text-sm text-gray-600">FLIGHTS</p>
@@ -133,7 +133,7 @@ export default function WhitePage() {
       {/* Our Services section */}
       <div className="w-full px-[3vw] py-[4vw]">
         <div className="mx-auto max-w-[1200px]">
-          <h2 className="text-center text-[2vw] font-bold text-[#3D2D72] mb-[2vw]">Our Services</h2>
+          <h2 className="text-center text-[2vw] max-sm:text-[10vw] font-bold text-[#3D2D72] mb-[2vw]">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[2vw]">
             {/* Card 1 */}
             <div className="bg-white rounded-lg p-5 transition-shadow duration-200 hover:shadow-xl">
@@ -167,8 +167,8 @@ export default function WhitePage() {
         </div>
       </div>
 
-      {/* Video section */}
-      <div className="w-full px-[3vw] pb-[4vw]">
+      
+      {/* <div className="w-full px-[3vw] pb-[4vw]">
         <div className="mx-auto max-w-[1200px]">
           <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
             <iframe
@@ -181,9 +181,9 @@ export default function WhitePage() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="bg-white py-16 flex flex-col items-center">
+      <div className="max-sm:bg-green-200 max-sm:p-[3vw] bg-white py-16 flex flex-col items-center">
                   {/* Heading */}
                   <h1 className="text-4xl font-bold text-[#3D2D72] mb-6 text-center">
                     Our Clients
@@ -217,7 +217,7 @@ export default function WhitePage() {
       {/* Industries served */}
       <div className="w-full px-[3vw] py-[4vw]">
         <div className="mx-auto max-w-[1200px]">
-          <h2 className="text-center text-[2vw] font-bold text-[#3D2D72] mb-[2.5vw]">Industries served</h2>
+          <h2 className="text-center max-sm:text-[8vw] text-[2vw] font-bold text-[#3D2D72] mb-[2.5vw]">Industries served</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[2vw]">
             {[
               { title: "Transportation", img: "https://equinoxsdrones.com/wp-content/uploads/2023/07/transpor.jpg", desc: "Railway and highway projects are supported with GIS, topography surveys, aerial maps, and UAVs equipped with high-end advanced sensors for surveying, monitoring, and inspection, resulting in enhanced efficiency and management. Our services include drone road inspection and bridge inspection using drones, ensuring thorough assessments and accurate data collection. We specialize in UAV bridge inspection and bridge inspection by drone, utilizing cutting-edge technology to deliver reliable and detailed inspection reports." },
@@ -247,12 +247,12 @@ export default function WhitePage() {
       </div>
 
       {/* Recent Blogs */}
-      <div className="w-full px-[3vw] py-[4vw]">
+      <div className="w-full px-[3vw] max-sm:px-[0vw] py-[4vw]">
         <div className="mx-auto max-w-[1200px]">
-          <h2 className="text-center text-[2vw] font-bold text-[#3D2D72] mb-[2.5vw]">Recent Blogs</h2>
-          <div className="flex flex-nowrap justify-between gap-[2vw]">
+          <h2 className="text-center max-sm:text-[8vw] text-[2vw] font-bold text-[#3D2D72] mb-[2.5vw]">Recent Blogs</h2>
+          <div className="max-sm:bg-cyan-500 max-sm:p-[2vw] max-sm:w-screen max-sm:items-center  flex max-sm:flex-col flex-nowrap justify-between gap-[2vw]">
             {/* Blog Card 1 */}
-            <div className="w-[24rem] bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
+            <div className="max-sm:w-[90vw] w-[24rem] bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
               <Image src="https://equinoxsdrones.com/wp-content/uploads/2025/06/Eq-B2-Wind-Turbin-01-768x413.png" alt="Blog 1" width={600} height={350} className="w-full h-auto" />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-black">How Drones Are Revolutionizing Wind Turbine Inspections</h3>
@@ -260,7 +260,7 @@ export default function WhitePage() {
               </div>
             </div>
             {/* Blog Card 2 */}
-            <div className="w-[24rem] bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
+            <div className="max-sm:w-[90vw] w-[24rem] bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
               <Image src="https://equinoxsdrones.com/wp-content/uploads/2025/06/Picture1-768x413.png" alt="Blog 2" width={600} height={350} className="w-full h-auto" />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-black">Power Line Inspection: Guide, Benefits & Tech by Equinox’s Drones</h3>
@@ -268,7 +268,7 @@ export default function WhitePage() {
               </div>
             </div>
             {/* Blog Card 3 */}
-            <div className="w-[24rem] bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
+            <div className="max-sm:w-[90vw] w-[24rem] bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
               <Image src="https://equinoxsdrones.com/wp-content/uploads/2025/04/thermal-imaging-drones-768x413.png" alt="Blog 3" width={600} height={350} className="w-full h-auto" />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-black">Thermal Imaging Drones for Leak Detection in Oil and Gas Pipelines</h3>
@@ -285,7 +285,7 @@ export default function WhitePage() {
       {/* Testimonials */}
       <div className="w-full px-[3vw] py-[4vw] bg-[#f7f7fb]">
         <div className="mx-auto max-w-[1200px]">
-          <h2 className="text-center text-[2vw] font-bold text-[#3D2D72] mb-[2.5vw]">Testimonials</h2>
+          <h2 className="max-sm:text-[9vw] text-center text-[2vw] font-bold text-[#3D2D72] mb-[2.5vw]">Testimonials</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[3vw]">
             {/* Testimonial 1 (pointer bottom) */}
             <div>
@@ -395,7 +395,7 @@ export default function WhitePage() {
       {/* FAQ Section */}
       <div className="w-full px-[3vw] py-[4vw]">
         <div className="mx-auto max-w-[1200px]">
-          <h2 className="text-center text-[2vw] font-bold text-[#3D2D72] mb-[2.5vw]">FAQ&apos;S</h2>
+          <h2 className="max-sm:text-[9vw] text-center text-[2vw] font-bold text-[#3D2D72] mb-[2.5vw]">FAQ&apos;S</h2>
 
           {/* Item 1 (open by default) */}
           <details open className="faq-item mb-4 rounded-md bg-white shadow-md">
