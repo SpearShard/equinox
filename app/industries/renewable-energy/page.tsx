@@ -136,7 +136,7 @@ export default function TransportationPage() {
                 key={i}
                 className="p-6 bg-gray-50 rounded-md shadow-sm hover:shadow-md transition"
               >
-                {f.picture ? (
+                {('picture' in f && f.picture) ? (
                   // 🖼️ Render image and description if picture exists
                   <>
                     <div className="flex justify-center relative z-10">
@@ -148,16 +148,18 @@ export default function TransportationPage() {
                         className="object-contain"
                       />
                     </div>
-                    <p className=" text-gray-600 mt-2">{f.desc}</p>
+                    <p className="text-gray-600 mt-2">{f.desc}</p>
                   </>
                 ) : (
                   // 🧠 Otherwise render title or text
                   <div className="hello">
-                    <h1 className=" text-2xl font-semibold text-[#3D2D72] text-center">
-                      {f.title}
-                    </h1>
+                    {('title' in f && f.title) ? (
+                      <h1 className="text-2xl font-semibold text-[#3D2D72] text-center">
+                        {f.title}
+                      </h1>
+                    ) : null}
                     <p className="text-gray-600 mb-4">
-                      {f.desc && <p className="text-gray-600 mt-2">{f.desc}</p>}
+                      {f.desc && <span className="text-gray-600 mt-2 block">{f.desc}</span>}
                       Our superior quality equipment enables us to meticulously identify and address the following issues:
                     </p>
                     <ul className="list-disc list-inside text-gray-700 space-y-1 text-left  w-fit">
