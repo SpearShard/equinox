@@ -21,7 +21,7 @@ export default function Footer() {
             width={40}
             height={40}
             />
-            <div className="font-semibold text-slate-900">Equinox Drones</div>
+            <div className="font-semibold text-slate-900">Mechzilla technologies</div>
           </div>
           <p className="text-sm leading-6 text-slate-600 max-w-md">
             We are a team of GIS experts, pilots, and engineers using drones to
