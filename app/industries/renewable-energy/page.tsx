@@ -125,8 +125,8 @@ export default function TransportationPage() {
           </div>
 
           <div className="bg-[#F9FAFB] p-[2vw] flex flex-col items-center text-center ">
-            <div className="max-sm:text-[5vw] text-[3vw] font-bold text-[#3D2D72]">{current.Intitle}</div>
-            <div className="max-sm:text-[4vw] text-[1.5vw] font-bold text-[#3D2D72]">{current.Subtitle}</div>
+            <div className="max-sm:text-[5vw] text-[3vw] font-bold text-[#0179C0]">{current.Intitle}</div>
+            <div className="max-sm:text-[4vw] text-[1.5vw] font-bold text-[#0179C0]">{current.Subtitle}</div>
           </div>
 
           {/* Features Section */}
@@ -154,7 +154,7 @@ export default function TransportationPage() {
                   // 🧠 Otherwise render title or text
                   <div className="hello">
                     {('title' in f && f.title) ? (
-                      <h1 className="text-2xl font-semibold text-[#3D2D72] text-center">
+                      <h1 className="text-2xl font-semibold text-[#0179C0] text-center">
                         {f.title}
                       </h1>
                     ) : null}
@@ -201,9 +201,9 @@ export default function TransportationPage() {
           {/* Right: Text content */}
           <div className=" flex-1 flex flex-col">
             {/* Title */}
-            <h2 className=" max-sm:w-full max-sm:text-[6vw] text-3xl text-[#3D2D72] font-bold mb-2">Benefits of our Drone Powered solution for Roadways</h2>
+            <h2 className=" max-sm:w-full max-sm:text-[6vw] text-3xl text-[#0179C0] font-bold mb-2">Benefits of our Drone Powered solution for Roadways</h2>
             {/* Purple line */}
-            <div className="w-[12vw] mx-auto h-1 bg-[#734EEC] mb-6"></div>
+            <div className="w-[12vw] mx-auto h-1 bg-[#048BD6] mb-6"></div>
 
             {/* Bullet points */}
             <ul className="flex flex-col gap-4">
@@ -216,7 +216,7 @@ export default function TransportationPage() {
               ].map((point, index) => (
                 <li key={index} className="flex items-center gap-3">
                   {/* Purple circle with white tick */}
-                  <div className="w-6 h-6 flex-shrink-0 bg-[#734EEC] rounded-full flex items-center justify-center">
+                  <div className="w-6 h-6 flex-shrink-0 bg-[#048BD6] rounded-full flex items-center justify-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-4 w-4 text-white"
@@ -240,7 +240,7 @@ export default function TransportationPage() {
 
         <div className="bg-white py-16 px-6 flex flex-col items-center">
           {/* Section Title */}
-          <h1 className="text-4xl font-bold text-[#3D2D72] mb-12">Our Features</h1>
+          <h1 className="text-4xl font-bold text-[#0179C0] mb-12">Our Features</h1>
 
           {/* Feature Tabs */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
@@ -257,7 +257,7 @@ export default function TransportationPage() {
               </div>
 
               {/* Title */}
-              <h2 className="text-xl font-semibold text-[#3D2D72] mb-2 transition-colors duration-300 group-hover:text-white">
+              <h2 className="text-xl font-semibold text-[#0179C0] mb-2 transition-colors duration-300 group-hover:text-white">
                 200+ Wind Turbines Inspection
               </h2>
 
@@ -277,7 +277,7 @@ export default function TransportationPage() {
               />
               </div>
 
-              <h2 className="text-xl font-semibold text-[#3D2D72] mb-2 transition-colors duration-300 group-hover:text-white">
+              <h2 className="text-xl font-semibold text-[#0179C0] mb-2 transition-colors duration-300 group-hover:text-white">
                 In-depth detailed inspection
               </h2>
               <p className="text-gray-700 text-base transition-colors duration-300 group-hover:text-white">
@@ -295,7 +295,7 @@ export default function TransportationPage() {
               />
               </div>
 
-              <h2 className="text-xl font-semibold text-[#3D2D72] mb-2 transition-colors duration-300 group-hover:text-white">
+              <h2 className="text-xl font-semibold text-[#0179C0] mb-2 transition-colors duration-300 group-hover:text-white">
                 Team of Experts
               </h2>
               <p className="text-gray-700 text-base transition-colors duration-300 group-hover:text-white">

@@ -56,7 +56,7 @@ export default function AboutPage() {
 
             {/* Text Section */}
             <div className=" max-sm:w-screen max-sm:p-[5vw] max-sm: md:w-1/2 w-full   max-sm:space-y-[0]  text-white space-y-6">
-              <h1 className="max-sm:text-[10vw] text-5xl md:text-6xl font-bold text-[#3D2D72]">
+              <h1 className="max-sm:text-[10vw] text-5xl md:text-6xl font-bold text-[#0179C0]">
                 About Us
               </h1>
               <p className="max-sm:mt-[7vw]  text-lg md:text-xl text-black leading-relaxed">
@@ -179,7 +179,7 @@ export default function AboutPage() {
 
         </div>
         <div className="bg-white py-16 flex flex-col items-center">
-          <h1 className="text-4xl font-bold text-[#3D2D72] mb-12 text-center">
+          <h1 className="text-4xl font-bold text-[#0179C0] mb-12 text-center">
             Our Founders
           </h1>
 
@@ -195,12 +195,12 @@ export default function AboutPage() {
                 />
               </div>
               <div className="flex flex-col text-center md:text-left">
-                <h2 className="text-2xl font-bold text-[#3D2D72]">Ashish Aman</h2>
+                <h2 className="text-2xl font-bold text-[#0179C0]">Ashish Aman</h2>
                 <p className="text-lg text-gray-600 mb-3">Founder</p>
                 <p className="text-gray-700 mb-6">
                   Technology Evangelist Geospatial Tank Taskmaster. Has played a pioneer role in drone operations before starting his own venture with amazing skills of flying.
                 </p>
-                <div className="flex justify-center md:justify-start gap-4 text-[#3D2D72]">
+                <div className="flex justify-center md:justify-start gap-4 text-[#0179C0]">
                   <FaFacebookF className="text-xl cursor-pointer hover:scale-110 transition-transform" />
                   <FaTwitter className="text-xl cursor-pointer hover:scale-110 transition-transform" />
                   <FaLinkedinIn className="text-xl cursor-pointer hover:scale-110 transition-transform" />
@@ -219,12 +219,12 @@ export default function AboutPage() {
                 />
               </div>
               <div className="flex flex-col text-center md:text-left">
-                <h2 className="text-2xl font-bold text-[#3D2D72]">Sonali</h2>
+                <h2 className="text-2xl font-bold text-[#0179C0]">Sonali</h2>
                 <p className="text-lg text-gray-600 mb-3">COO - Operations</p>
                 <p className="text-gray-700 mb-6">
                   Operational excellence by overseeing all critical functions from drone deployments to client satisfaction. Her strategic leadership drives innovation, efficiency, and growth within the organization, ensuring we stay at the forefront of the drone industry.
                 </p>
-                <div className="flex justify-center md:justify-start gap-4 text-[#3D2D72]">
+                <div className="flex justify-center md:justify-start gap-4 text-[#0179C0]">
                   <FaFacebookF className="text-xl cursor-pointer hover:scale-110 transition-transform" />
                   <FaTwitter className="text-xl cursor-pointer hover:scale-110 transition-transform" />
                   <FaLinkedinIn className="text-xl cursor-pointer hover:scale-110 transition-transform" />
@@ -235,7 +235,7 @@ export default function AboutPage() {
 
           <div className="bg-white py-16 flex flex-col items-center">
             {/* Heading */}
-            <h1 className="text-4xl font-bold text-[#3D2D72] mb-6 text-center">
+            <h1 className="text-4xl font-bold text-[#0179C0] mb-6 text-center">
               Our Clients
             </h1>
 
@@ -265,7 +265,7 @@ export default function AboutPage() {
           </div>
 
           <div className="bg-white py-16 flex flex-col items-center">
-            <h1 className="text-4xl font-bold text-[#3D2D72] mb-12 text-center">
+            <h1 className="text-4xl font-bold text-[#0179C0] mb-12 text-center">
               Our Achievements
             </h1>
 
@@ -281,7 +281,7 @@ export default function AboutPage() {
                     className="object-contain"
                   />
                 </div>
-                <h2 className="text-2xl font-bold text-[#3D2D72] mb-1">1 Lakh+</h2>
+                <h2 className="text-2xl font-bold text-[#0179C0] mb-1">1 Lakh+</h2>
                 <p className="text-gray-700 font-medium">ACRES LAND SURVEYED</p>
               </div>
 
@@ -295,7 +295,7 @@ export default function AboutPage() {
                     className="object-contain"
                   />
                 </div>
-                <h2 className="text-2xl font-bold text-[#3D2D72] mb-1">500+</h2>
+                <h2 className="text-2xl font-bold text-[#0179C0] mb-1">500+</h2>
                 <p className="text-gray-700 font-medium">PROJECTS DONE</p>
               </div>
 
@@ -309,7 +309,7 @@ export default function AboutPage() {
                     className="object-contain"
                   />
                 </div>
-                <h2 className="text-2xl font-bold text-[#3D2D72] mb-1">10 Lakhs+</h2>
+                <h2 className="text-2xl font-bold text-[#0179C0] mb-1">10 Lakhs+</h2>
                 <p className="text-gray-700 font-medium">IMAGES PROCESSED</p>
               </div>
 
@@ -323,7 +323,7 @@ export default function AboutPage() {
                     className="object-contain"
                   />
                 </div>
-                <h2 className="text-2xl font-bold text-[#3D2D72] mb-1">10,000+</h2>
+                <h2 className="text-2xl font-bold text-[#0179C0] mb-1">10,000+</h2>
                 <p className="text-gray-700 font-medium">FLIGHTS</p>
               </div>
 
@@ -342,11 +342,11 @@ export default function AboutPage() {
 
             {/* Content */}
             <div className="absolute flex flex-col items-center text-center text-white px-4">
-              <h1 className="text-4xl md:text-5xl text-[#3D2D72] font-bold mb-4">Get in touch with us</h1>
+              <h1 className="text-4xl md:text-5xl text-[#0179C0] font-bold mb-4">Get in touch with us</h1>
               <p className="text-lg md:text-xl text-black mb-6">
                 Get in touch with us for all your drone related services
               </p>
-              <button className="bg-[#3D2D72] hover:bg-[#2b1f5a] text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300">
+              <button className="bg-[#0179C0] hover:bg-[#2b1f5a] text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300">
                 Contact Us
               </button>
             </div>

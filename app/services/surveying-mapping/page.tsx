@@ -20,7 +20,7 @@ export default function SurveyingMappingPage() {
 
             {/* Text Section */}
             <div className="md:w-1/2  w-full text-white space-y-6">
-              <h1 className=" max-sm:p-[5vw] max-sm:text-[10vw]  max-sm:w-screen  text-5xl md:text-6xl font-bold text-[#3D2D72]">
+              <h1 className=" max-sm:p-[5vw] max-sm:text-[10vw]  max-sm:w-screen  text-5xl md:text-6xl font-bold text-[#0179C0]">
                 Aerial Drone Surveying and Mapping
               </h1>
               <p className="text-lg  max-sm:p-[5vw] md:text-xl text-black leading-relaxed">
@@ -42,7 +42,7 @@ export default function SurveyingMappingPage() {
 
         <div className=" bg-white max-sm:p-[0] max-sm:mx-[0] max-sm   px-12 py-16 max-w-[60vw] mx-auto">
           {/* Title */}
-          <h1 className="text-[1.5vw] max-sm:w-screen max-sm:text-[8vw] max-sm:leading-[9vw] text-center font-bold text-[#3D2D72] mb-6">Drone Surveying / Mapping in India</h1>
+          <h1 className="text-[1.5vw] max-sm:w-screen max-sm:text-[8vw] max-sm:leading-[9vw] text-center font-bold text-[#0179C0] mb-6">Drone Surveying / Mapping in India</h1>
 
           {/* Paragraphs */}
           <div className="text-gray-700  max-sm:w-screen max-sm:p-[3vw] text-lg space-y-4 mb-8">
@@ -55,7 +55,7 @@ export default function SurveyingMappingPage() {
           </div>
 
           {/* Deliverables Subtitle */}
-          <h2 className="text-2xl max-sm:w-screen max-sm:px-[5vw] font-semibold text-[#3D2D72] mb-4">Deliverables we provide:</h2>
+          <h2 className="text-2xl max-sm:w-screen max-sm:px-[5vw] font-semibold text-[#0179C0] mb-4">Deliverables we provide:</h2>
 
           {/* Bullet Points */}
           <ul className=" max-sm:w-screen max-sm:px-[3vw] list-disc list-inside text-gray-700 space-y-2">
@@ -70,7 +70,7 @@ export default function SurveyingMappingPage() {
         </div>
 
         <div className=" max-sm:p-[7vw] bg-white max-sm:px-[0] px-12 py-16 max-w-6xl mx-auto">
-          <h1 className="text-4xl  max-sm:w-screen font-bold text-[#3D2D72] mb-10 text-center">We can help with</h1>
+          <h1 className="text-4xl  max-sm:w-screen font-bold text-[#0179C0] mb-10 text-center">We can help with</h1>
 
           <div className="flex flex-col gap-6">
 
@@ -168,7 +168,7 @@ export default function SurveyingMappingPage() {
         </div>
 
         <div className=" max-sm:p-[5vw] bg-white px-12 py-16 max-w-6xl mx-auto">
-          <h1 className="max-sm:text-[10vw] text-4xl font-bold text-[#3D2D72] mb-10 text-center">Deliverables we provide</h1>
+          <h1 className="max-sm:text-[10vw] text-4xl font-bold text-[#0179C0] mb-10 text-center">Deliverables we provide</h1>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
@@ -260,7 +260,7 @@ export default function SurveyingMappingPage() {
         </div>
 
         <div className="max-sm:relative max-sm:flex max-sm:flex-col max-sm:items-center max-sm:px-[0]  bg-white px-12 py-16 max-w-6xl mx-auto">
-          <h1 className="max-sm:text-[10vw] text-4xl font-bold text-[#3D2D72] mb-10 text-center">Our Features</h1>
+          <h1 className="max-sm:text-[10vw] text-4xl font-bold text-[#0179C0] mb-10 text-center">Our Features</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
@@ -364,7 +364,7 @@ export default function SurveyingMappingPage() {
         </div>
 
         <div className="max-sm:p-[5vw]  bg-white px-12 py-16 max-w-6xl mx-auto">
-          <h1 className="max-sm:text-[10vw] max-sm:w-full  text-4xl font-bold text-[#3D2D72] mb-10 text-center">Industries We Serve</h1>
+          <h1 className="max-sm:text-[10vw] max-sm:w-full  text-4xl font-bold text-[#0179C0] mb-10 text-center">Industries We Serve</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
@@ -372,7 +372,7 @@ export default function SurveyingMappingPage() {
             <a href="/industry/manufacturing" className="group flex items-center justify-between border rounded-lg p-6 relative hover:shadow-lg transition-all duration-300">
               <span className="text-xl font-semibold text-gray-800">Manufacturing</span>
               <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3D2D72]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#0179C0]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </div>
@@ -382,7 +382,7 @@ export default function SurveyingMappingPage() {
             <a href="/industry/construction" className="group flex items-center justify-between border rounded-lg p-6 relative hover:shadow-lg transition-all duration-300">
               <span className="text-xl font-semibold text-gray-800">Construction</span>
               <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3D2D72]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#0179C0]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </div>
@@ -392,7 +392,7 @@ export default function SurveyingMappingPage() {
             <a href="/industry/agriculture" className="group flex items-center justify-between border rounded-lg p-6 relative hover:shadow-lg transition-all duration-300">
               <span className="text-xl font-semibold text-gray-800">Agriculture</span>
               <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3D2D72]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#0179C0]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </div>
@@ -402,7 +402,7 @@ export default function SurveyingMappingPage() {
             <a href="/industry/real-estate" className="group flex items-center justify-between border rounded-lg p-6 relative hover:shadow-lg transition-all duration-300">
               <span className="text-xl font-semibold text-gray-800">Real Estate</span>
               <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3D2D72]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#0179C0]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </div>
@@ -412,7 +412,7 @@ export default function SurveyingMappingPage() {
             <a href="/industry/energy" className="group flex items-center justify-between border rounded-lg p-6 relative hover:shadow-lg transition-all duration-300">
               <span className="text-xl font-semibold text-gray-800">Energy</span>
               <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3D2D72]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#0179C0]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </div>
@@ -422,7 +422,7 @@ export default function SurveyingMappingPage() {
             <a href="/industry/logistics" className="group flex items-center justify-between border rounded-lg p-6 relative hover:shadow-lg transition-all duration-300">
               <span className="text-xl font-semibold text-gray-800">Logistics</span>
               <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3D2D72]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#0179C0]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </div>
@@ -444,11 +444,11 @@ export default function SurveyingMappingPage() {
 
           {/* Content */}
           <div className="absolute flex flex-col items-center text-center text-white px-4">
-            <h1 className="text-4xl md:text-5xl text-[#3D2D72] font-bold mb-4">Get in touch with us</h1>
+            <h1 className="text-4xl md:text-5xl text-[#0179C0] font-bold mb-4">Get in touch with us</h1>
             <p className="text-lg md:text-xl text-black mb-6">
               Get in touch with us for all your drone related services
             </p>
-            <button className="bg-[#3D2D72] hover:bg-[#2b1f5a] text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300">
+            <button className="bg-[#0179C0] hover:bg-[#2b1f5a] text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300">
               Contact Us
             </button>
           </div>

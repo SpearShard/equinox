@@ -15,7 +15,7 @@ export default function CareersPage() {
           {/* Titles */}
           <div className="flex flex-col">
             <h3 className="text-sm font-medium text-gray-700 uppercase">Join Us Today</h3>
-            <h1 className="text-3xl md:text-4xl font-bold text-[#3D2D72] mt-2">
+            <h1 className="text-3xl md:text-4xl font-bold text-[#0179C0] mt-2">
               The Right Place For You
             </h1>
           </div>
@@ -38,7 +38,7 @@ export default function CareersPage() {
 
       <div className="bg-white px-12 py-16">
         {/* Section Title */}
-        <h1 className="text-4xl font-bold text-[#3D2D72] mb-8 text-center">Job Opportunities</h1>
+        <h1 className="text-4xl font-bold text-[#0179C0] mb-8 text-center">Job Opportunities</h1>
 
         {/* Job Tabs Row */}
         <div className="flex flex-col md:flex-row gap-6">
@@ -58,7 +58,7 @@ export default function CareersPage() {
 
             {/* View Job Button */}
             <div className="flex-1 flex justify-end">
-              <button className="bg-purple-600 text-white px-4 py-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <button className="bg-[#048bd6] text-white px-4 py-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 View Job
               </button>
             </div>
@@ -79,7 +79,7 @@ export default function CareersPage() {
 
             {/* View Job Button */}
             <div className="flex-1 flex justify-end">
-              <button className="bg-purple-600 text-white px-4 py-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <button className="bg-[#048bd6] text-white px-4 py-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 View Job
               </button>
             </div>
@@ -93,7 +93,7 @@ export default function CareersPage() {
   {/* Section Title */}
   <div className="text-center mb-10">
     <h3 className="text-xl text-gray-700 font-medium">What are you looking for?</h3>
-    <h1 className="text-4xl font-bold text-[#3D2D72] mt-2">Apply Now for Success</h1>
+    <h1 className="text-4xl font-bold text-[#0179C0] mt-2">Apply Now for Success</h1>
   </div>
 
   {/* Form */}
@@ -130,7 +130,7 @@ export default function CareersPage() {
     </div>
 
     {/* Position Dropdown */}
-    <select className="border border-gray-300 text-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600">
+    <select className="border border-gray-300 text-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#048bd6]">
       <option  value="">Select Position</option>
       <option value="bde">Business Development Engineer</option>
       <option value="gis">GIS Engineer</option>
@@ -146,7 +146,7 @@ export default function CareersPage() {
     {/* Submit Button */}
     <button
       type="submit"
-      className="bg-purple-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-purple-700 transition-colors"
+      className="bg-[#048bd6] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#048bd6] transition-colors"
     >
       Submit
     </button>
