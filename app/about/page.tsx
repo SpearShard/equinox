@@ -12,29 +12,7 @@ export default function AboutPage() {
     "https://equinoxsdrones.com/wp-content/uploads/2023/07/dnvgl.png",
     "https://equinoxsdrones.com/wp-content/uploads/2023/07/indain-railway-1536x1536.png",
     "https://equinoxsdrones.com/wp-content/uploads/2023/07/juwi-logo.jpg",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/07/kumar-buildcon1.jpg",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/07/larsen-toubro-logo.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/07/reliance-infrastructure.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/07/snn1-1536x1357.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/07/sterling-and-wilson-logo.jpg",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/07/tata-projects.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/08/1280px-NTPC_Logo.svg.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/08/Steel_Authority_of_India_logo.svg.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/08/Survey_of_India_logo.jpg",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/08/download-1.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2023/08/download.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/aarvee-associates-logo.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/adanigreens.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/afcons-logo.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/atrialogo-1536x1184.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/nlc-logo.jpg",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/sccl-logo.jpg",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/secon-logo.jpg",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/sunpharmalogo.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/sunworks.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/ultratech-cement-logo-1024x565.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/adanimineslogo.png",
-    "https://equinoxsdrones.com/wp-content/uploads/2024/04/aditya-birla-group-logo.jpg",
+    
   ];
   return (
     <>
@@ -88,7 +66,7 @@ export default function AboutPage() {
             />
           </div> */}
           <div className="box relative bg-[#F3F4FA] flex justify-center items-center rounded-[10px] shadow-md p-[1vw] mx-auto w-fit">
-            <h1 className="text-[#3502E3] text-lg font-semibold text-center leading-snug">
+            <h1 className="text-[#038BD5] text-lg font-semibold text-center leading-snug">
               WE&apos;RE THE BEST DRONE TECH COMPANY OF THE YEAR 2023
             </h1>
           </div>

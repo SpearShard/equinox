@@ -19,7 +19,7 @@ export default function WhitePage() {
       {/* Hero section with background image */}
       <div className=" relative w-full h-[100vh] overflow-hidden">
         <Image
-          src='/banner.svg'
+          src='/ban.svg'
           alt="here is the bg"
           fill
           className="object-cover   object-center"
@@ -376,7 +376,7 @@ export default function WhitePage() {
 
           {/* Item 1 (open by default) */}
           <details open className="faq-item mb-4 rounded-md bg-white shadow-md">
-            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#2b2360]">
+            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#0079C0]">
               Why Drone Survey?
             </summary>
             <div className="faq-content px-5 pb-5 text-gray-700 leading-relaxed">
@@ -386,7 +386,7 @@ export default function WhitePage() {
 
           {/* Item 2 */}
           <details className="faq-item mb-4 rounded-md bg-white shadow-md">
-            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#2b2360]">
+            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#0079C0]">
               How accurate Drone Survey results are?
             </summary>
             <div className="faq-content px-5 pb-5 text-gray-700 leading-relaxed">
@@ -396,7 +396,7 @@ export default function WhitePage() {
 
           {/* Item 3 */}
           <details className="faq-item mb-4 rounded-md bg-white shadow-md">
-            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#2b2360]">
+            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#0079C0]">
               Which drone survey technology do we use?
             </summary>
             <div className="faq-content px-5 pb-5 text-gray-700 leading-relaxed">
@@ -406,7 +406,7 @@ export default function WhitePage() {
 
           {/* Item 4 */}
           <details className="faq-item mb-4 rounded-md bg-white shadow-md">
-            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#2b2360]">
+            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#0079C0]">
               What is the process around each drone operation?
             </summary>
             <div className="faq-content px-5 pb-5 text-gray-700 leading-relaxed">
@@ -416,7 +416,7 @@ export default function WhitePage() {
 
           {/* Item 5 */}
           <details className="faq-item mb-4 rounded-md bg-white shadow-md">
-            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#2b2360]">
+            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#0079C0]">
               What are the current applications for Aerial Technology?
             </summary>
             <div className="faq-content px-5 pb-5 text-gray-700 leading-relaxed">
@@ -426,7 +426,7 @@ export default function WhitePage() {
 
           {/* Item 6 */}
           <details className="faq-item mb-6 rounded-md bg-white shadow-md">
-            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#2b2360]">
+            <summary className="list-none cursor-pointer select-none px-5 py-4 text-[1.1rem] font-semibold text-[#0079C0]">
               Why are drones superior to traditional surveying methods?
             </summary>
             <div className="faq-content px-5 pb-5 text-gray-700 leading-relaxed">

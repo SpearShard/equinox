@@ -88,7 +88,7 @@ export default function TransportationPage() {
               <button
                 onClick={() => setActiveTab("railways")}
                 className={`relative z-[0] px-6 py-2 h-[4vw] text-lg font-semibold  ${activeTab === "railways"
-                  ? "max-sm:h-full border-purple-600 text-white bg-[#9810FA]"
+                  ? "max-sm:h-full border-purple-600 text-white bg-[#038BD5]"
                   : "border-transparent text-gray-600 hover:text-purple-500"
                   }`}
               >
@@ -97,7 +97,7 @@ export default function TransportationPage() {
               <button
                 onClick={() => setActiveTab("roadways")}
                 className={`px-6 py-2 text-lg font-semibold border-b-4 ${activeTab === "roadways"
-                  ? "border-purple-600 bg-[#9810FA] text-white"
+                  ? "border-purple-600 bg-[#038BD5] text-white"
                   : "border-transparent text-gray-600 hover:text-purple-500"
                   }`}
               >
@@ -105,7 +105,7 @@ export default function TransportationPage() {
               </button>
             </div>
 
-            <button className="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition">
+            <button className="bg-[#0079C0] text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition">
               Ask for Demo
             </button>
           </div>
@@ -151,7 +151,7 @@ export default function TransportationPage() {
                 key={i}
                 className="p-6  bg-gray-50 rounded-md shadow-sm hover:shadow-md transition"
               >
-                <p className="text-sm font-medium text-purple-600">{f.small}</p>
+                <p className="text-sm font-medium text-[#0079C0]">{f.small}</p>
                 <h3 className="text-xl font-semibold text-gray-800">{f.big}</h3>
                 <p className="text-gray-600 mt-2">{f.desc}</p>
               </div>
@@ -166,7 +166,7 @@ export default function TransportationPage() {
           {/* Feature Tabs */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
             {/* Feature 1 */}
-            <div className="group bg-white rounded-2xl shadow-md p-8 flex flex-col items-center text-center transition-all duration-300 hover:bg-[#7D5CE9] hover:shadow-xl">
+            <div className="group bg-white rounded-2xl shadow-md p-8 flex flex-col items-center text-center transition-all duration-300 hover:bg-[#038BD5] hover:shadow-xl">
               {/* SVG */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@ export default function TransportationPage() {
             </div>
 
             {/* Feature 2 */}
-            <div className="group bg-white rounded-2xl shadow-md p-8 flex flex-col items-center text-center transition-all duration-300 hover:bg-[#7D5CE9] hover:shadow-xl">
+            <div className="group bg-white rounded-2xl shadow-md p-8 flex flex-col items-center text-center transition-all duration-300 hover:bg-[#038BD5] hover:shadow-xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -223,7 +223,7 @@ export default function TransportationPage() {
             </div>
 
             {/* Feature 3 */}
-            <div className="group bg-white rounded-2xl shadow-md p-8 flex flex-col items-center text-center transition-all duration-300 hover:bg-[#7D5CE9] hover:shadow-xl">
+            <div className="group bg-white rounded-2xl shadow-md p-8 flex flex-col items-center text-center transition-all duration-300 hover:bg-[#038BD5] hover:shadow-xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -252,7 +252,7 @@ export default function TransportationPage() {
         <div className=" max-sm:w-screen w-[76vw] mx-auto bg-white shadow-xl p-8 flex flex-col md:flex-row items-center md:items-center gap-6">
           {/* Left content */}
           <div className="flex-1">
-            <span className="text-purple-600 font-semibold text-sm uppercase mb-2 inline-block">
+            <span className="text-[#038BD5] font-semibold text-sm uppercase mb-2 inline-block">
               Get in Touch
             </span>
             <h2 className="max-sm:text-[5vw] text-2xl md:text-3xl font-bold text-gray-900">
@@ -262,7 +262,7 @@ export default function TransportationPage() {
 
           {/* Right content */}
           <div className="flex-shrink-0">
-            <button className="max-sm:text-[4vw] bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors duration-300">
+            <button className="max-sm:text-[4vw] bg-[#038BD5] text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors duration-300">
               Contact Us for a Demo
             </button>
           </div>
