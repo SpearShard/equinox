@@ -60,9 +60,9 @@ export default function ContactPage() {
 
             <div>
               <div className="text-slate-800 font-medium mb-2">Or Drop us an Email</div>
-              <Link href="mailto:business@equinoxsdrones.com" className="inline-flex items-center gap-3 rounded-md bg-[#038BD5] text-white px-5 py-3">
+              <Link href="mailto:business@Mechzilla Technologies.com" className="inline-flex items-center gap-3 rounded-md bg-[#038BD5] text-white px-5 py-3">
                 <Mail className="w-4 h-4" />
-                business@equinoxsdrones.com
+                business@Mechzilla Technologies.com
               </Link>
             </div>
 
@@ -82,12 +82,12 @@ export default function ContactPage() {
         <h2 className="text-center text-2xl sm:text-3xl font-semibold text-[#038BD5]">Equinox&apos;s Drones on Social</h2>
         <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         
-          <a href="https://www.facebook.com/equinoxsdrones" target="_blank" className="rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white p-8 text-center">
+          <a href="https://www.facebook.com/Mechzilla Technologies" target="_blank" className="rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white p-8 text-center">
             <div className="mx-auto mb-4 w-16 h-16 grid place-items-center rounded-full bg-[#3b5998]/10 text-[#3b5998]">
               <span className="text-3xl font-bold">f</span>
             </div>
             <div className="text-xl font-semibold text-slate-900">Facebook</div>
-            <div className="text-slate-600 mt-2">/equinoxsdrones</div>
+            <div className="text-slate-600 mt-2">/Mechzilla Technologies</div>
           </a>
 
           
@@ -100,29 +100,29 @@ export default function ContactPage() {
           </a>
 
           
-          <a href="https://www.youtube.com/@equinoxsdrones" target="_blank" className="rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white p-8 text-center">
+          <a href="https://www.youtube.com/@Mechzilla Technologies" target="_blank" className="rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white p-8 text-center">
             <div className="mx-auto mb-4 w-16 h-16 grid place-items-center rounded-full bg-[#ff0000]/10 text-[#ff0000]">
               <span className="text-3xl font-black">▶</span>
             </div>
             <div className="text-xl font-semibold text-slate-900">YouTube</div>
-            <div className="text-slate-600 mt-2">/equinoxsdrones</div>
+            <div className="text-slate-600 mt-2">/Mechzilla Technologies</div>
           </a>
 
-          <a href="https://medium.com/@equinoxsdrones" target="_blank" className="rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white p-8 text-center">
+          <a href="https://medium.com/@Mechzilla Technologies" target="_blank" className="rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white p-8 text-center">
             <div className="mx-auto mb-4 w-16 h-16 grid place-items-center rounded-full bg-black text-white">
               <span className="text-3xl font-serif">M</span>
             </div>
             <div className="text-xl font-semibold text-slate-900">Medium</div>
-            <div className="text-slate-600 mt-2">@equinoxsdrones</div>
+            <div className="text-slate-600 mt-2">@Mechzilla Technologies</div>
           </a>
 
          
-          <a href="https://www.linkedin.com/company/equinoxsdrones" target="_blank" className="rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white p-8 text-center">
+          <a href="https://www.linkedin.com/company/Mechzilla Technologies" target="_blank" className="rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white p-8 text-center">
             <div className="mx-auto mb-4 w-16 h-16 grid place-items-center rounded-full bg-[#0a66c2]/10 text-[#0a66c2]">
               <span className="text-3xl font-black">in</span>
             </div>
             <div className="text-xl font-semibold text-slate-900">Linkedin</div>
-            <div className="text-slate-600 mt-2">/equinoxsdrones</div>
+            <div className="text-slate-600 mt-2">/Mechzilla Technologies</div>
           </a>
 
          

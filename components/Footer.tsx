@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer
       className="bg-slate-50  border-t border-slate-200  bg-no-repeat"
-      style={{ backgroundImage: `url('https://equinoxsdrones.com/wp-content/uploads/2023/07/footer-svg-background-banner1200.svg')`, backgroundSize: 'contain' }}
+      style={{ backgroundImage: `url('https://Mechzilla Technologies.com/wp-content/uploads/2023/07/footer-svg-background-banner1200.svg')`, backgroundSize: 'contain' }}
     >
       <div className="max-w-5xl mx-auto px-4 py-14 grid gap-12 md:grid-cols-3">
         {/* Left: About + Social + Subscribe */}
@@ -41,7 +41,7 @@ export default function Footer() {
             <Link href="#" aria-label="YouTube" className="w-9 h-9 grid place-items-center rounded-full bg-white border border-slate-200 text-slate-700 hover:text-sky-600">
               <Youtube className="w-4 h-4" />
             </Link>
-            <Link href="mailto:info@equinoxsdrones.com" aria-label="Email" className="w-9 h-9 grid place-items-center rounded-full bg-white border border-slate-200 text-slate-700 hover:text-sky-600">
+            <Link href="mailto:info@Mechzilla Technologies.com" aria-label="Email" className="w-9 h-9 grid place-items-center rounded-full bg-white border border-slate-200 text-slate-700 hover:text-sky-600">
               <Mail className="w-4 h-4" />
             </Link>
           </div>
@@ -81,16 +81,17 @@ export default function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-slate-500" />
                 <p>
-                  Equinox&apos;s Drones Pvt Ltd<br />
+                  {/* Equinox&apos;s Drones Pvt Ltd<br />
                   Building No- 1314, 1st, 3rd & 4th Floor, Paramahansa Yogananda Rd,<br />
                   above Imperial Restaurant, Eshwara Layout, Indiranagar,<br />
-                  Bengaluru, Karnataka 560038
+                  Bengaluru, Karnataka 560038 */}
+                  Bengaluru, Karnataka
                 </p>
               </div>
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-slate-500" />
-                <Link href="mailto:info@equinoxsdrones.com" className={linkClass}>info@equinoxsdrones.com</Link>
-              </div>
+                <Link href="mailto:info@Mechzilla Technologies.com" className={linkClass}>info@Mechzilla Technologies.com</Link>
+              </div> */}
             </div>
           </div>
 
@@ -99,11 +100,11 @@ export default function Footer() {
             <div className="space-y-3 text-sm text-slate-700">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-slate-500" />
-                <Link href="mailto:business@equinoxsdrones.com" className={linkClass}>business@equinoxsdrones.com</Link>
+                <Link href="mailto:business@Mechzilla Technologies.com" className={linkClass}>business@companyname.com</Link>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-slate-500" />
-                <Link href="tel:+919990279996" className={linkClass}>+91 9990279996</Link>
+                <Link href="tel:+919990279996" className={linkClass}>+91 1234567890</Link>
               </div>
             </div>
           </div>

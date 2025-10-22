@@ -31,7 +31,7 @@ export default function CareersPage() {
           <p className="text-gray-600 text-base md:text-lg">
             invest in our people by offering opportunities to learn, lead, and grow within a supportive and inclusive culture. If you’re ready to take the next step in your career and work with a team that empowers you to reach your full potential, then Equinox’s Drones is the right place for you.
 
-            Ready to take your career to new heights? Share your resume with us at careers@equinoxsdrones.com and be a part of our journey.
+            Ready to take your career to new heights? Share your resume with us at careers@Mechzilla Technologies.com and be a part of our journey.
           </p>
         </div>
       </div>
