@@ -21,7 +21,7 @@ export default function Footer() {
             width={40}
             height={40}
             />
-            <div className="font-semibold text-slate-900">equinoxsdrones</div>
+            <div className="font-semibold text-slate-900">Mechzilla Technologies</div>
           </div>
           <p className="text-sm leading-6 text-slate-600 max-w-md">
             We are a team of GIS experts, pilots, and engineers using drones to
@@ -100,7 +100,7 @@ export default function Footer() {
             <div className="space-y-3 text-sm text-slate-700">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-slate-500" />
-                <Link href="mailto:business@equinoxsdrones.com" className={linkClass}>business@companyname.com</Link>
+                <Link href="mailto:business@equinoxsdrones.com" className={linkClass}>business@Mechzillatechnologies.com</Link>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-slate-500" />
@@ -113,8 +113,8 @@ export default function Footer() {
 
       <div className="border-t border-slate-200">
         <div className="max-w-5xl mx-auto px-4 py-6 text-sm text-slate-600 flex items-center justify-between">
-          <p>© {new Date().getFullYear()} <span className="font-medium text-slate-900">Equinox Drones</span> All Rights Reserved</p>
-          <div className="hidden sm:block text-slate-500">Powered by Next.js</div>
+          <p>© {new Date().getFullYear()} <span className="font-medium text-slate-900">MechZilla Technologies</span> All Rights Reserved</p>
+          {/* <div className="hidden sm:block text-slate-500">Powered by Next.js</div> */}
         </div>
       </div>
     </footer>
