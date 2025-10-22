@@ -7,7 +7,7 @@ export default function SurveyingMappingPage() {
         <div className="first-page h-[100vh] relative  max-sm:px-[0] flex items-center justify-center px-12 bg-gray-100">
           {/* Background Image */}
           <Image
-            src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/banner-background.svg"
+            src="https://equinoxsdrones.com/wp-content/uploads/2023/07/banner-background.svg"
             alt="Background"
             fill
             className="object-cover"
@@ -31,7 +31,7 @@ export default function SurveyingMappingPage() {
             {/* Image Section */}
             <div className=" max-sm:py-[0] max-sm:h-[75vw] md:w-1/2 w-full h-[400px] md:h-[500px] relative">
               <Image
-                src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/banner-vector.svg"
+                src="https://equinoxsdrones.com/wp-content/uploads/2023/07/banner-vector.svg"
                 alt="About Us"
                 fill
                 className="object-contain"
@@ -78,7 +78,7 @@ export default function SurveyingMappingPage() {
             <div className="max-sm:relative max-sm:flex-col group flex items-center gap-6 p-4 border rounded-lg hover:shadow-lg transition-all duration-300">
               <div className="max-sm:w-full max-sm:h-[50vw] relative  w-[20vw] h-[15vw] flex-shrink-0 transition-all duration-300 group-hover:w-[22vw]">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/landsurveying.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/landsurveying.jpg"
                   alt="Drone Surveying"
                   fill
                   className="object-contain max-sm:bg-yellow-200 max-sm:object-fill   "
@@ -96,7 +96,7 @@ export default function SurveyingMappingPage() {
             <div className="max-sm:relative  max-sm:flex-col group flex items-center gap-6 p-4 border rounded-lg hover:shadow-lg transition-all duration-300">
               <div className="max-sm:w-full max-sm:h-[50vw] relative w-[20vw] h-[15vw] flex-shrink-0 transition-all duration-300 group-hover:w-[22vw]">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/land-management-planning.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/land-management-planning.jpg"
                   alt="GIS Analysis"
                   fill
                   className="object-contain max-sm:bg-yellow-200 max-sm:object-fill"
@@ -114,7 +114,7 @@ export default function SurveyingMappingPage() {
             <div className="max-sm:relative  max-sm:flex-col group flex items-center gap-6 p-4 border rounded-lg hover:shadow-lg transition-all duration-300">
               <div className="max-sm:w-full max-sm:h-[50vw] relative w-[20vw] h-[15vw] flex-shrink-0 transition-all duration-300 group-hover:w-[22vw]">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/stockpile_volume.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/stockpile_volume.jpg"
                   alt="3D Modeling"
                   fill
                   className="object-contain  max-sm:object-fill"
@@ -132,7 +132,7 @@ export default function SurveyingMappingPage() {
             <div className="max-sm:relative  max-sm:flex-col group flex items-center gap-6 p-4 border rounded-lg hover:shadow-lg transition-all duration-300">
               <div className="max-sm:w-full max-sm:h-[50vw] relative w-[20vw] h-[15vw] flex-shrink-0 transition-all duration-300 group-hover:w-[22vw]">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/slopemonitoring.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/slopemonitoring.jpg"
                   alt="Infrastructure Inspection"
                   fill
                   className="object-contain max-sm:object-fill"
@@ -150,7 +150,7 @@ export default function SurveyingMappingPage() {
             <div className="max-sm:relative  max-sm:flex-col group flex items-center gap-6 p-4 border rounded-lg hover:shadow-lg transition-all duration-300">
               <div className="max-sm:w-full max-sm:h-[50vw] relative w-[20vw] h-[15vw] flex-shrink-0 transition-all duration-300 group-hover:w-[22vw]">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/urban-planning.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/urban-planning.jpg"
                   alt="Agriculture Solutions"
                   fill
                   className="object-contain max-sm:bg-yellow-200 max-sm:object-fill"
@@ -177,7 +177,7 @@ export default function SurveyingMappingPage() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Orthomosaic Maps</h3>
               <div className="max-sm:bg-purple-300 max-sm:h-[50vw] max-sm:w-full relative w-[20vw] h-[15vw] mb-4 transition-transform duration-300 group-hover:scale-105">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/ortho.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/ortho.jpg"
                   alt="Orthomosaic Maps"
                   fill
                   className="object-contain max-sm:object-fill"
@@ -191,7 +191,7 @@ export default function SurveyingMappingPage() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">3D Point Cloud</h3>
               <div className="max-sm:bg-purple-300 max-sm:h-[50vw] max-sm:w-full relative w-[20vw] h-40 mb-4 transition-transform duration-300 group-hover:scale-105">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/3dmap.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/3dmap.jpg"
                   alt="3D Terrain Models"
                   fill
                   className="object-contain max-sm:object-fill"
@@ -205,7 +205,7 @@ export default function SurveyingMappingPage() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Digital Surface Models (DSM)</h3>
               <div className="max-sm:bg-purple-300 max-sm:h-[50vw] max-sm:w-full relative w-[20vw] h-40 mb-4 transition-transform duration-300 group-hover:scale-105">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/digital-surface-models-dsm.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/digital-surface-models-dsm.jpg"
                   alt="Topographic Surveys"
                   fill
                   className="object-contain max-sm:object-fill"
@@ -219,7 +219,7 @@ export default function SurveyingMappingPage() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Digital Terrain Model (DTM)</h3>
               <div className="max-sm:bg-purple-300 max-sm:h-[50vw] max-sm:w-full relative w-[20vw] h-40 mb-4 transition-transform duration-300 group-hover:scale-105">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/digital-train-moddel-dtm.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/digital-train-moddel-dtm.jpg"
                   alt="Volume & Area Calculations"
                   fill
                   className="object-contain max-sm:object-fill"
@@ -233,7 +233,7 @@ export default function SurveyingMappingPage() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Contour Maps</h3>
               <div className="max-sm:bg-purple-300 max-sm:h-[50vw] max-sm:w-full relative w-[20vw] h-40 mb-4 transition-transform duration-300 group-hover:scale-105">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/digital-contour-map.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/digital-contour-map.jpg"
                   alt="Crop Health Analysis"
                   fill
                   className="object-contain max-sm:object-fill"
@@ -247,7 +247,7 @@ export default function SurveyingMappingPage() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">3D Textured Mesh</h3>
               <div className="max-sm:bg-purple-300 max-sm:h-[50vw] max-sm:w-full relative w-[20vw] h-40 mb-4 transition-transform duration-300 group-hover:scale-105">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/3d-mesh.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/3d-mesh.jpg"
                   alt="Infrastructure Inspection"
                   fill
                   className="object-contain max-sm:object-fill"
@@ -269,7 +269,7 @@ export default function SurveyingMappingPage() {
               <div className=" flex items-center gap-4 mb-2">
                 <div className=" relative w-12 h-12 flex-shrink-0">
                   <Image
-                    src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus4.svg"
+                    src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus4.svg"
                     alt="Feature 1"
                     fill
                     className="object-contain "
@@ -285,7 +285,7 @@ export default function SurveyingMappingPage() {
               <div className=" flex items-center gap-4 mb-2">
                 <div className=" relative w-12 h-12 flex-shrink-0">
                   <Image
-                    src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus4.svg"
+                    src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus4.svg"
                     alt="Feature 2"
                     fill
                     className="object-contain"
@@ -301,7 +301,7 @@ export default function SurveyingMappingPage() {
               <div className=" flex items-center gap-4 mb-2">
                 <div className=" relative w-12 h-12 flex-shrink-0">
                   <Image
-                    src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus4.svg"
+                    src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus4.svg"
                     alt="Feature 3"
                     fill
                     className="object-contain"
@@ -317,7 +317,7 @@ export default function SurveyingMappingPage() {
               <div className=" flex items-center gap-4 mb-2">
                 <div className=" relative w-12 h-12 flex-shrink-0">
                   <Image
-                    src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus4.svg"
+                    src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus4.svg"
                     alt="Feature 4"
                     fill
                     className="object-contain"
@@ -333,7 +333,7 @@ export default function SurveyingMappingPage() {
               <div className=" flex items-center gap-4 mb-2">
                 <div className=" relative w-12 h-12 flex-shrink-0">
                   <Image
-                    src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus4.svg"
+                    src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus4.svg"
                     alt="Feature 5"
                     fill
                     className="object-contain"
@@ -349,7 +349,7 @@ export default function SurveyingMappingPage() {
               <div className=" flex items-center gap-4 mb-2">
                 <div className=" relative w-12 h-12 flex-shrink-0">
                   <Image
-                    src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus4.svg"
+                    src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus4.svg"
                     alt="Feature 6"
                     fill
                     className="object-contain"
@@ -434,7 +434,7 @@ export default function SurveyingMappingPage() {
         <div className="relative w-full h-[400px] flex items-center justify-center">
           {/* Background Image */}
           <Image
-            src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/contact-background-banner1.svg"
+            src="https://equinoxsdrones.com/wp-content/uploads/2023/07/contact-background-banner1.svg"
             alt="Get in Touch Background"
             fill
             className="object-cover"

@@ -5,13 +5,13 @@ import { ArrowRight } from "lucide-react";
 export default function WhitePage() {
 
   const clientLogos = [
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aditya-birla-hindalco-logo-1536x1281.jpg",
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/bosch-logo-1536x1081.jpg",
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/credai1.jpg",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/aditya-birla-hindalco-logo-1536x1281.jpg",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/bosch-logo-1536x1081.jpg",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/credai1.jpg",
     // 👇 Duplicate or replace with 29 total
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/dnvgl.png",
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/indain-railway-1536x1536.png",
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/juwi-logo.jpg",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/dnvgl.png",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/indain-railway-1536x1536.png",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/juwi-logo.jpg",
   ];
 
   return (
@@ -64,9 +64,9 @@ export default function WhitePage() {
       </div>
 
       <div className= " lg:justify-center flex  max-sm:flex-col  pt-[3vw] gap-[2vw]">
-        <Image src='https://Mechzilla Technologies.com/wp-content/uploads/2023/07/about-us-banner1-768x512.png' alt="shape" width={846} height={564} />
+        <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/about-us-banner1-768x512.png' alt="shape" width={846} height={564} />
         <div className=" max-sm:p-[5vw] max-sm:w-full  w-[30vw]">
-          <h1 className="max-sm:text-[9vw] max-sm:leading-[9vw] text-[2vw] text-[#048BD6] font-bold">We Are Mechzilla Technologies.</h1>
+          <h1 className="max-sm:text-[9vw] max-sm:leading-[9vw] text-[2vw] text-[#048BD6] font-bold">We Are equinoxsdrones.</h1>
           <h2 className="max-sm:text-[8vw] text-[1.5vw] text-black font-bold">About Us</h2>
           <p className="max-sm:text-[5vw] text-[1.3vw] text-black">Endeavoring to deliver innovative data processes and content delivery, our drone survey company in India provides aerial solutions by delivering high-quality Geo-Spatial solutions backed with enhanced speed and precision for both the public and private sectors. We offer highly accurate and detailed GIS Surveying, drone inspection, mining services, flood assessment, crop health monitoring, topographic survey, UAV data processing, 3D mapping, and aerial photography. Our qualified personnel include wind turbine experts. We provide specialized drone services for projects across India and have earned the knowledge and skills to accomplish them through experience, teamwork, and reliable equipment. As one of the best drone companies in India, we excel in drone mapping and surveying, offering top-tier drone mapping services near you. </p>
           <Link
@@ -84,22 +84,22 @@ export default function WhitePage() {
         <div className="mx-auto max-w-[1400px]">
           <div className="flex max-sm:items-center max-sm:p-[2vw] max-sm:flex-col max-sm:w-screen max-sm: flex-nowrap justify-between gap-[2vw]">
             <div className="max-sm:w-[90vw] w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
-              <Image src='https://Mechzilla Technologies.com/wp-content/uploads/2023/07/land-surveyed.svg' alt="drone" width={70} height={50} className="mb-3" />
+              <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/land-surveyed.svg' alt="drone" width={70} height={50} className="mb-3" />
               <h3 className="text-lg font-semibold text-black mb-2">1 Lakh+</h3>
               <p className="text-sm text-gray-600">ACRES LAND SURVEYED</p>
             </div>
             <div className="max-sm:w-[90vw] w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
-              <Image src='https://Mechzilla Technologies.com/wp-content/uploads/2023/07/projects-done.svg' alt="drone" width={70} height={50} className="mb-3" />
+              <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/projects-done.svg' alt="drone" width={70} height={50} className="mb-3" />
               <h3 className="text-lg font-semibold text-black mb-2">500+</h3>
               <p className="text-sm text-gray-600">PROJECTS DONE</p>
             </div>
             <div className="max-sm:w-[90vw] w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
-              <Image src='https://Mechzilla Technologies.com/wp-content/uploads/2023/07/image-processing.svg' alt="drone" width={70} height={50} className="mb-3" />
+              <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/image-processing.svg' alt="drone" width={70} height={50} className="mb-3" />
               <h3 className="text-lg font-semibold text-black mb-2">10 Lakhs+</h3>
               <p className="text-sm text-gray-600">IMAGE PROCESSED</p>
             </div>
             <div className="max-sm:w-[90vw] w-[20rem] min-h-[14rem] bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
-              <Image src='https://Mechzilla Technologies.com/wp-content/uploads/2023/07/flight-mission.svg' alt="drone" width={70} height={50} className="mb-3" />
+              <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/flight-mission.svg' alt="drone" width={70} height={50} className="mb-3" />
               <h3 className="text-lg font-semibold text-black mb-2">10,000+</h3>
               <p className="text-sm text-gray-600">FLIGHTS</p>
             </div>
@@ -114,28 +114,28 @@ export default function WhitePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[2vw]">
             {/* Card 1 */}
             <div className="bg-white rounded-lg p-5 transition-shadow duration-200 hover:shadow-xl">
-              <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/mapping.svg" alt="Service 1" width={600} height={350} className="w-full h-auto rounded" />
+              <Image src="https://equinoxsdrones.com/wp-content/uploads/2023/07/mapping.svg" alt="Service 1" width={600} height={350} className="w-full h-auto rounded" />
               <h3 className="mt-4 text-xl font-semibold text-black">Aerial Inspection & Analysis</h3>
               <p className="mt-2 text-gray-600 text-sm">Detailed inspections of assets and infrastructure using high-resolution imagery and analytics.</p>
               <Link href="#" className="mt-3 inline-flex items-center text-blue-600 hover:text-blue-800">Learn more <ArrowRight className="ml-1 w-4 h-4" /></Link>
             </div>
             {/* Card 2 */}
             <div className="bg-white rounded-lg p-5 transition-shadow duration-200 hover:shadow-xl">
-              <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/inspection.svg" alt="Service 2" width={600} height={350} className="w-full h-auto rounded" />
+              <Image src="https://equinoxsdrones.com/wp-content/uploads/2023/07/inspection.svg" alt="Service 2" width={600} height={350} className="w-full h-auto rounded" />
               <h3 className="mt-4 text-xl font-semibold text-black">Surveying & Mapping</h3>
               <p className="mt-2 text-gray-600 text-sm">Accurate mapping and topographic data collection for planning and development.</p>
               <Link href="#" className="mt-3 inline-flex items-center text-blue-600 hover:text-blue-800">Learn more <ArrowRight className="ml-1 w-4 h-4" /></Link>
             </div>
             {/* Card 3 */}
             <div className="bg-white rounded-lg p-5 transition-shadow duration-200 hover:shadow-xl">
-              <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/creative-aerial-content.svg" alt="Service 3" width={600} height={350} className="w-full h-auto rounded" />
+              <Image src="https://equinoxsdrones.com/wp-content/uploads/2023/07/creative-aerial-content.svg" alt="Service 3" width={600} height={350} className="w-full h-auto rounded" />
               <h3 className="mt-4 text-xl font-semibold text-black">UAV Data Processing</h3>
               <p className="mt-2 text-gray-600 text-sm">Transform raw aerial data into actionable insights, models, and reports.</p>
               <Link href="#" className="mt-3 inline-flex items-center text-blue-600 hover:text-blue-800">Learn more <ArrowRight className="ml-1 w-4 h-4" /></Link>
             </div>
             {/* Card 4 */}
             <div className="bg-white rounded-lg p-5 transition-shadow duration-200 hover:shadow-xl">
-              <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/mapping.svg" alt="Service 4" width={600} height={350} className="w-full h-auto rounded" />
+              <Image src="https://equinoxsdrones.com/wp-content/uploads/2023/07/mapping.svg" alt="Service 4" width={600} height={350} className="w-full h-auto rounded" />
               <h3 className="mt-4 text-xl font-semibold text-black">Creative Aerial Content</h3>
               <p className="mt-2 text-gray-600 text-sm">Capture stunning visuals and narratives from the sky for marketing and media.</p>
               <Link href="#" className="mt-3 inline-flex items-center text-blue-600 hover:text-blue-800">Learn more <ArrowRight className="ml-1 w-4 h-4" /></Link>
@@ -197,14 +197,14 @@ export default function WhitePage() {
           <h2 className="text-center max-sm:text-[8vw] text-[2vw] font-bold text-[#0179C0] mb-[2.5vw]">Industries served</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[2vw]">
             {[
-              { title: "Transportation", img: "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/transpor.jpg", desc: "Railway and highway projects are supported with GIS, topography surveys, aerial maps, and UAVs equipped with high-end advanced sensors for surveying, monitoring, and inspection, resulting in enhanced efficiency and management. Our services include drone road inspection and bridge inspection using drones, ensuring thorough assessments and accurate data collection. We specialize in UAV bridge inspection and bridge inspection by drone, utilizing cutting-edge technology to deliver reliable and detailed inspection reports." },
-              { title: "Renewable Energy", img: "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/rew.jpg", desc: "Promote reliable data acquisition and diminish risks associated with solar and wind turbine inspections by employing AI-powered surveys, thermal maps, and thermal inspections to preserve your assets in top-notch condition. Our services include innovative approaches such as solar panels on drones, solar-powered UAV solutions, and solar drones for efficient inspections. For wind turbine inspection, we offer wind turbine drone inspection services, including drone wind turbine blade inspection and turbine blade inspection, ensuring thorough and accurate assessments using advanced drone technology." },
-              { title: "Mining", img: "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/mining.jpg", desc: "Keep track of your critical assets with AI-powered volumetric measurement and analysis with 99% accuracy. We offer nearly 30x faster data collection for haul road optimization, mine exploration, and countless other UAV-powered services. Our mining drone solutions encompass mining surveys, mining inspections, and UAVs for mining operations, ensuring efficient and precise data acquisition tailored to your needs." },
-              { title: "Utilities", img: "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/utilities.jpg", desc: "We extend our services to detect, track, and analyze damage on utilities using cutting-edge drone UAV technology backed with guaranteed centimeter-level accuracy. Our expertise includes drone telecom inspections, telecom tower inspection, drones in telecommunications, and drone tower inspection software, ensuring thorough and precise assessments for utility infrastructure." },
-              { title: "Infrastructure", img: "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/infra.jpg", desc: "Our GIS experts are here to advance knowledge toward your projects with highly-equipped UAVs for 3D city models, pre-construction aerial surveys, drone videos with GEO-tagged information, drone inspection, city traffic analysis, and more. We provide comprehensive infrastructure inspection services, including drone infrastructure inspection and UAV infrastructure inspection, ensuring thorough assessments and detailed insights for your projects." },
-              { title: "Agriculture", img: "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/agir.jpg", desc: "Through our aerial survey, mapping, and high-end UAVs pioneering precision agriculture, crop health analysis, irrigation planning, crop damage assessment, soil analysis, and more, we cater successfully to the agricultural community with 98% accuracy. Our services include drones for agricultural use, agri drones, drones and farming solutions, agriculture drone capabilities, and UAV drone agriculture applications, ensuring optimal results and efficiency in agricultural operations." },
-              { title: "Oil and Gas", img: "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/oil-refinery.jpg", desc: "Oil and gas companies utilize drones or UAVs for pipeline inspections and other necessary functions to ensure safety, accuracy, and cost-effectiveness. Our services include specialized drone solutions tailored for the oil and gas industry, offering drone inspection for oil and gas facilities and comprehensive oil and gas drone services." },
-              { title: "Real Estate", img: "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/banner-3.jpg", desc: "Real estate drone photography can significantly enhance residential and commercial property features. Aerial photography with drones offers imaginative and attractive visuals that appeal to potential buyers and investors. Choosing the best drone for real estate ensures high-quality images and videos that showcase properties effectively. Realtors benefit from specialized drone photography for real estate, creating compelling visuals that highlight property details and locations." },
+              { title: "Transportation", img: "https://equinoxsdrones.com/wp-content/uploads/2023/07/transpor.jpg", desc: "Railway and highway projects are supported with GIS, topography surveys, aerial maps, and UAVs equipped with high-end advanced sensors for surveying, monitoring, and inspection, resulting in enhanced efficiency and management. Our services include drone road inspection and bridge inspection using drones, ensuring thorough assessments and accurate data collection. We specialize in UAV bridge inspection and bridge inspection by drone, utilizing cutting-edge technology to deliver reliable and detailed inspection reports." },
+              { title: "Renewable Energy", img: "https://equinoxsdrones.com/wp-content/uploads/2023/07/rew.jpg", desc: "Promote reliable data acquisition and diminish risks associated with solar and wind turbine inspections by employing AI-powered surveys, thermal maps, and thermal inspections to preserve your assets in top-notch condition. Our services include innovative approaches such as solar panels on drones, solar-powered UAV solutions, and solar drones for efficient inspections. For wind turbine inspection, we offer wind turbine drone inspection services, including drone wind turbine blade inspection and turbine blade inspection, ensuring thorough and accurate assessments using advanced drone technology." },
+              { title: "Mining", img: "https://equinoxsdrones.com/wp-content/uploads/2023/07/mining.jpg", desc: "Keep track of your critical assets with AI-powered volumetric measurement and analysis with 99% accuracy. We offer nearly 30x faster data collection for haul road optimization, mine exploration, and countless other UAV-powered services. Our mining drone solutions encompass mining surveys, mining inspections, and UAVs for mining operations, ensuring efficient and precise data acquisition tailored to your needs." },
+              { title: "Utilities", img: "https://equinoxsdrones.com/wp-content/uploads/2023/07/utilities.jpg", desc: "We extend our services to detect, track, and analyze damage on utilities using cutting-edge drone UAV technology backed with guaranteed centimeter-level accuracy. Our expertise includes drone telecom inspections, telecom tower inspection, drones in telecommunications, and drone tower inspection software, ensuring thorough and precise assessments for utility infrastructure." },
+              { title: "Infrastructure", img: "https://equinoxsdrones.com/wp-content/uploads/2023/07/infra.jpg", desc: "Our GIS experts are here to advance knowledge toward your projects with highly-equipped UAVs for 3D city models, pre-construction aerial surveys, drone videos with GEO-tagged information, drone inspection, city traffic analysis, and more. We provide comprehensive infrastructure inspection services, including drone infrastructure inspection and UAV infrastructure inspection, ensuring thorough assessments and detailed insights for your projects." },
+              { title: "Agriculture", img: "https://equinoxsdrones.com/wp-content/uploads/2023/07/agir.jpg", desc: "Through our aerial survey, mapping, and high-end UAVs pioneering precision agriculture, crop health analysis, irrigation planning, crop damage assessment, soil analysis, and more, we cater successfully to the agricultural community with 98% accuracy. Our services include drones for agricultural use, agri drones, drones and farming solutions, agriculture drone capabilities, and UAV drone agriculture applications, ensuring optimal results and efficiency in agricultural operations." },
+              { title: "Oil and Gas", img: "https://equinoxsdrones.com/wp-content/uploads/2023/07/oil-refinery.jpg", desc: "Oil and gas companies utilize drones or UAVs for pipeline inspections and other necessary functions to ensure safety, accuracy, and cost-effectiveness. Our services include specialized drone solutions tailored for the oil and gas industry, offering drone inspection for oil and gas facilities and comprehensive oil and gas drone services." },
+              { title: "Real Estate", img: "https://equinoxsdrones.com/wp-content/uploads/2023/07/banner-3.jpg", desc: "Real estate drone photography can significantly enhance residential and commercial property features. Aerial photography with drones offers imaginative and attractive visuals that appeal to potential buyers and investors. Choosing the best drone for real estate ensures high-quality images and videos that showcase properties effectively. Realtors benefit from specialized drone photography for real estate, creating compelling visuals that highlight property details and locations." },
             ].map((item, idx) => (
               <div key={idx} className="group relative rounded-xl overflow-hidden min-h-[16rem] bg-gray-200">
                 <div
@@ -230,7 +230,7 @@ export default function WhitePage() {
           <div className=" max-sm:p-[2vw] max-sm:w-screen max-sm:items-center  flex max-sm:flex-col flex-nowrap justify-between gap-[2vw]">
             
             <div className="max-sm:w-[90vw] w-[24rem] bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
-              <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2025/06/Eq-B2-Wind-Turbin-01-768x413.png" alt="Blog 1" width={600} height={350} className="w-full h-auto" />
+              <Image src="https://equinoxsdrones.com/wp-content/uploads/2025/06/Eq-B2-Wind-Turbin-01-768x413.png" alt="Blog 1" width={600} height={350} className="w-full h-auto" />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-black">How Drones Are Revolutionizing Wind Turbine Inspections</h3>
                 <Link href="#" className="mt-2 inline-flex items-center text-blue-600 hover:text-blue-800">Read Full Blog <ArrowRight className="ml-1 w-4 h-4" /></Link>
@@ -238,7 +238,7 @@ export default function WhitePage() {
             </div>
           
             <div className="max-sm:w-[90vw] w-[24rem] bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
-              <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2025/06/Picture1-768x413.png" alt="Blog 2" width={600} height={350} className="w-full h-auto" />
+              <Image src="https://equinoxsdrones.com/wp-content/uploads/2025/06/Picture1-768x413.png" alt="Blog 2" width={600} height={350} className="w-full h-auto" />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-black">Power Line Inspection: Guide, Benefits & Tech by Equinox’s Drones</h3>
                 <Link href="#" className="mt-2 inline-flex items-center text-blue-600 hover:text-blue-800">Read Full Blog <ArrowRight className="ml-1 w-4 h-4" /></Link>
@@ -246,7 +246,7 @@ export default function WhitePage() {
             </div>
             
             <div className="max-sm:w-[90vw] w-[24rem] bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-200">
-              <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2025/04/thermal-imaging-drones-768x413.png" alt="Blog 3" width={600} height={350} className="w-full h-auto" />
+              <Image src="https://equinoxsdrones.com/wp-content/uploads/2025/04/thermal-imaging-drones-768x413.png" alt="Blog 3" width={600} height={350} className="w-full h-auto" />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-black">Thermal Imaging Drones for Leak Detection in Oil and Gas Pipelines</h3>
                 <Link href="#" className="mt-2 inline-flex items-center text-blue-600 hover:text-blue-800">Read Full Blog <ArrowRight className="ml-1 w-4 h-4" /></Link>
@@ -273,7 +273,7 @@ export default function WhitePage() {
                 <div className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-0 h-0 border-l-[12px] border-r-[12px] border-t-[12px] border-l-transparent border-r-transparent border-t-[#0b2a4a]" />
               </div>
               <div className="mt-6 flex items-center gap-4">
-                <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2024/04/aditya-birla-group-logo.jpg" alt="Aditya Birla" width={56} height={56} />
+                <Image src="https://equinoxsdrones.com/wp-content/uploads/2024/04/aditya-birla-group-logo.jpg" alt="Aditya Birla" width={56} height={56} />
                 <div>
                   <div className="text-black font-semibold">Aditya Birla Group</div>
                   <div className="text-gray-500 text-sm">Priyamvada</div>
@@ -284,7 +284,7 @@ export default function WhitePage() {
             {/* Testimonial 2 (pointer top, logo above) */}
             <div>
               <div className="mb-6 flex items-center gap-4">
-                <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2024/08/images-2.png" alt="Tata Motors" width={56} height={56} />
+                <Image src="https://equinoxsdrones.com/wp-content/uploads/2024/08/images-2.png" alt="Tata Motors" width={56} height={56} />
                 <div>
                   <div className="text-black font-semibold">Indian Oil Corporation Limited (IOCL)</div>
                   <div className="text-gray-500 text-sm">Amber Dubey</div>
@@ -307,7 +307,7 @@ export default function WhitePage() {
                 <div className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-0 h-0 border-l-[12px] border-r-[12px] border-t-[12px] border-l-transparent border-r-transparent border-t-[#0b2a4a]" />
               </div>
               <div className="mt-6 flex items-center gap-4">
-                <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2023/08/Steel_Authority_of_India_logo.svg.png" alt="SAIL" width={56} height={56} />
+                <Image src="https://equinoxsdrones.com/wp-content/uploads/2023/08/Steel_Authority_of_India_logo.svg.png" alt="SAIL" width={56} height={56} />
                 <div>
                   <div className="text-black font-semibold">Steel Authority of India Limited (SAIL INDIA)</div>
                   <div className="text-gray-500 text-sm">Nandagopal</div>
@@ -318,7 +318,7 @@ export default function WhitePage() {
             {/* Testimonial 4 (pointer top, logo above) */}
             <div>
               <div className="mb-6 flex items-center gap-4">
-                <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2024/08/Tata-motors-06.png" alt="Indian Oil" width={56} height={56} />
+                <Image src="https://equinoxsdrones.com/wp-content/uploads/2024/08/Tata-motors-06.png" alt="Indian Oil" width={56} height={56} />
                 <div>
                   <div className="text-black font-semibold">Tata Motors</div>
                   <div className="text-gray-500 text-sm">Mr Alok</div>
@@ -341,7 +341,7 @@ export default function WhitePage() {
                 <div className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-0 h-0 border-l-[12px] border-r-[12px] border-t-[12px] border-l-transparent border-r-transparent border-t-[#0b2a4a]" />
               </div>
               <div className="mt-6 flex items-center gap-4">
-                <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2024/04/nlc-logo.jpg" alt="Larsen & Toubro" width={56} height={56} />
+                <Image src="https://equinoxsdrones.com/wp-content/uploads/2024/04/nlc-logo.jpg" alt="Larsen & Toubro" width={56} height={56} />
                 <div>
                   <div className="text-black font-semibold">Neyveli Lignite Corporation (NLC)</div>
                   <div className="text-gray-500 text-sm">Mr Saravanan</div>
@@ -352,7 +352,7 @@ export default function WhitePage() {
             {/* Testimonial 6 (pointer top, logo above) */}
             <div>
               <div className="mb-6 flex items-center gap-4">
-                <Image src="https://Mechzilla Technologies.com/wp-content/uploads/2024/08/jmsminingpvtltd_logo.jpeg" alt="ReNew Power" width={56} height={56} />
+                <Image src="https://equinoxsdrones.com/wp-content/uploads/2024/08/jmsminingpvtltd_logo.jpeg" alt="ReNew Power" width={56} height={56} />
                 <div>
                   <div className="text-black font-semibold">JMS Mining Pvt. Ltd</div>
                   <div className="text-gray-500 text-sm">Koushik Bose</div>

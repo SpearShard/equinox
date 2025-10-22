@@ -10,7 +10,7 @@ export default function TransportationPage() {
   const content = {
     railways: {
       title: "Railways",
-      image: "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/railway-vectro-svg.svg",
+      image: "https://equinoxsdrones.com/wp-content/uploads/2023/07/railway-vectro-svg.svg",
       description:
         "",
       features: [
@@ -24,7 +24,7 @@ export default function TransportationPage() {
     },
     roadways: {
       title: "Roadways",
-      image: "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/road1.svg",
+      image: "https://equinoxsdrones.com/wp-content/uploads/2023/07/road1.svg",
       description:
         "",
       features: [
@@ -49,7 +49,7 @@ export default function TransportationPage() {
             className="absolute inset-0 bg-cover bg-center"
             style={{
               backgroundImage:
-                "url('https://Mechzilla Technologies.com/wp-content/uploads/2023/07/banner-scaled.jpg')",
+                "url('https://equinoxsdrones.com/wp-content/uploads/2023/07/banner-scaled.jpg')",
             }}
           ></div>
 
@@ -117,7 +117,7 @@ export default function TransportationPage() {
               {/* Background SVG — full width */}
               <div className="absolute inset-0 w-screen left-[45vw]  -translate-x-1/2">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/railway-banner.svg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/railway-banner.svg"
                   alt="Background"
                   fill
                   className="object-cover"

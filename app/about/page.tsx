@@ -5,13 +5,13 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 export default function AboutPage() {
 
   const clientLogos = [
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aditya-birla-hindalco-logo-1536x1281.jpg",
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/bosch-logo-1536x1081.jpg",
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/credai1.jpg",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/aditya-birla-hindalco-logo-1536x1281.jpg",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/bosch-logo-1536x1081.jpg",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/credai1.jpg",
     // 👇 Duplicate or replace with 29 total
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/dnvgl.png",
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/indain-railway-1536x1536.png",
-    "https://Mechzilla Technologies.com/wp-content/uploads/2023/07/juwi-logo.jpg",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/dnvgl.png",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/indain-railway-1536x1536.png",
+    "https://equinoxsdrones.com/wp-content/uploads/2023/07/juwi-logo.jpg",
     
   ];
   return (
@@ -20,7 +20,7 @@ export default function AboutPage() {
         <div className="max-sm:p-[5vw] max-sm:h-auto max-sm:bg-white h-[100vh] relative flex items-center justify-center px-12 bg-gray-100">
           {/* Background Image */}
           <Image
-            src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus1.svg"
+            src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus1.svg"
             alt="Background"
             fill
             className="object-cover"
@@ -46,7 +46,7 @@ export default function AboutPage() {
             {/* Image Section */}
             <div className=" max-sm:h-[60vw] md:w-1/2 w-full h-[400px] md:h-[500px] relative">
               <Image
-                src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus2.svg"
+                src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus2.svg"
                 alt="About Us"
                 fill
                 className="object-contain"
@@ -59,7 +59,7 @@ export default function AboutPage() {
         <div className="second-page bg-white">
           {/* <div className="relative flex justify-center items-center h-[5vw] ">
             <Image
-              src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus3.svg"
+              src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus3.svg"
               alt="About Us"
               fill
               className="object-contain"
@@ -75,7 +75,7 @@ export default function AboutPage() {
             <div className="max-sm:p-[3vw]  max-sm:w-full p-[1vw] box1 relative w-1/3  rounded-lg overflow-hidden">
               <div className="max-sm:h-[30vw]  relative image h-[10vw]">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus4.svg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus4.svg"
                   alt="About Us"
                   fill
                   className="object-contain"
@@ -91,7 +91,7 @@ export default function AboutPage() {
             <div className="max-sm:p-[3vw]  max-sm:w-full p-[1vw] box2 relative  w-1/3  rounded-lg overflow-hidden">
               <div className="max-sm:h-[30vw] relative image h-[10vw]">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus5.svg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus5.svg"
                   alt="About Us"
                   fill
                   className="object-contain"
@@ -107,7 +107,7 @@ export default function AboutPage() {
             <div className="max-sm:p-[3vw]  max-sm:w-full p-[1vw] box3 relative  w-1/3  rounded-lg overflow-hidden">
               <div className="max-sm:h-[30vw] relative h-[10vw]">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/aboutus6.svg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/aboutus6.svg"
                   alt="About Us"
                   fill
                   className="object-contain"
@@ -125,7 +125,7 @@ export default function AboutPage() {
           <div className="max-sm:bg-red-500 max-sm:h-[30vh]  relative h-[50vh] w-full">
             {/* Background Image */}
             <Image
-              src="https://Mechzilla Technologies.com/wp-content/uploads/2024/11/website-02-1536x260.png"
+              src="https://equinoxsdrones.com/wp-content/uploads/2024/11/website-02-1536x260.png"
               alt="Our Mission"
               fill
               className="object-cover max-sm:object-fill"
@@ -166,7 +166,7 @@ export default function AboutPage() {
             <div className="founder-card bg-[#F3F4FA] rounded-2xl shadow-md flex flex-col md:flex-row items-center p-8 gap-8">
               <div className="relative w-[200px] h-[200px] rounded-full overflow-hidden flex-shrink-0">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/team1.jpg"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2023/07/team1.jpg"
                   alt="Founder 1"
                   fill
                   className="object-cover"
@@ -190,7 +190,7 @@ export default function AboutPage() {
             <div className="founder-card bg-[#F3F4FA] rounded-2xl shadow-md flex flex-col md:flex-row items-center p-8 gap-8">
               <div className="relative w-[200px] h-[200px] rounded-full overflow-hidden flex-shrink-0">
                 <Image
-                  src="https://Mechzilla Technologies.com/wp-content/uploads/2024/10/WhatsApp_Image_2024-10-19_at_10.15.12-removebg-preview.png"
+                  src="https://equinoxsdrones.com/wp-content/uploads/2024/10/WhatsApp_Image_2024-10-19_at_10.15.12-removebg-preview.png"
                   alt="Founder 2"
                   fill
                   className="object-cover"
@@ -253,7 +253,7 @@ export default function AboutPage() {
               <div className="flex flex-col items-center text-center p-6 bg-[#F3F4FA] rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="relative w-16 h-16 mb-4">
                   <Image
-                    src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/land-surveyed.svg"
+                    src="https://equinoxsdrones.com/wp-content/uploads/2023/07/land-surveyed.svg"
                     alt="Feature 1"
                     fill
                     className="object-contain"
@@ -267,7 +267,7 @@ export default function AboutPage() {
               <div className="flex flex-col items-center text-center p-6 bg-[#F3F4FA] rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="relative w-16 h-16 mb-4">
                   <Image
-                    src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/projects-done.svg"
+                    src="https://equinoxsdrones.com/wp-content/uploads/2023/07/projects-done.svg"
                     alt="Feature 2"
                     fill
                     className="object-contain"
@@ -281,7 +281,7 @@ export default function AboutPage() {
               <div className="flex flex-col items-center text-center p-6 bg-[#F3F4FA] rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="relative w-16 h-16 mb-4">
                   <Image
-                    src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/image-processing.svg"
+                    src="https://equinoxsdrones.com/wp-content/uploads/2023/07/image-processing.svg"
                     alt="Feature 3"
                     fill
                     className="object-contain"
@@ -295,7 +295,7 @@ export default function AboutPage() {
               <div className="flex flex-col items-center text-center p-6 bg-[#F3F4FA] rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="relative w-16 h-16 mb-4">
                   <Image
-                    src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/flight-mission.svg"
+                    src="https://equinoxsdrones.com/wp-content/uploads/2023/07/flight-mission.svg"
                     alt="Feature 4"
                     fill
                     className="object-contain"
@@ -310,7 +310,7 @@ export default function AboutPage() {
           <div className="relative w-full h-[400px] flex items-center justify-center">
             {/* Background Image */}
             <Image
-              src="https://Mechzilla Technologies.com/wp-content/uploads/2023/07/contact-background-banner1.svg"
+              src="https://equinoxsdrones.com/wp-content/uploads/2023/07/contact-background-banner1.svg"
               alt="Get in Touch Background"
               fill
               className="object-cover"

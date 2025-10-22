@@ -65,7 +65,7 @@ export default function Nav() {
                       width={40}
                       height={40}
                       />
-            Mechzilla technologies
+            equinoxsdrones
           </Link>
           <div ref={navRef} className="flex items-center gap-3">
             {/* Mobile hamburger - visible on small screens */}
