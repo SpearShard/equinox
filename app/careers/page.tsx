@@ -24,14 +24,14 @@ export default function CareersPage() {
         {/* Right Section: Two paragraphs side by side */}
         <div className="flex flex-col md:flex-row gap-6 md:gap-8 md:w-2/3">
           <p className="text-gray-600 text-base md:text-lg">
-            At Equinox’s Drones, we believe that great work comes from people who are passionate about what they do. That’s why we’re dedicated to creating a workplace where you can thrive—whether you’re a creative innovator, a problem-solver, or someone with a drive to make an impact. Here, you’ll find more than just a job; you’ll find a place where your ideas matter, your contributions are valued, and your growth is supported every step of the way.
+            At Mechzilla Technologies, we believe that great work comes from people who are passionate about what they do. That’s why we’re dedicated to creating a workplace where you can thrive—whether you’re a creative innovator, a problem-solver, or someone with a drive to make an impact. Here, you’ll find more than just a job; you’ll find a place where your ideas matter, your contributions are valued, and your growth is supported every step of the way.
 
             Our team is built on collaboration, diversity, and a shared commitment to excellence. We
           </p>
           <p className="text-gray-600 text-base md:text-lg">
-            invest in our people by offering opportunities to learn, lead, and grow within a supportive and inclusive culture. If you’re ready to take the next step in your career and work with a team that empowers you to reach your full potential, then Equinox’s Drones is the right place for you.
+            invest in our people by offering opportunities to learn, lead, and grow within a supportive and inclusive culture. If you’re ready to take the next step in your career and work with a team that empowers you to reach your full potential, then Mechzilla Technologies is the right place for you.
 
-            Ready to take your career to new heights? Share your resume with us at careers@equinoxsdrones.com and be a part of our journey.
+            Ready to take your career to new heights? Share your resume with us at careers@Mechzillatechnologies.com and be a part of our journey.
           </p>
         </div>
       </div>
@@ -90,69 +90,69 @@ export default function CareersPage() {
 
 
       <div className="bg-gray-50 px-12 py-16">
-  {/* Section Title */}
-  <div className="text-center mb-10">
-    <h3 className="text-xl text-gray-700 font-medium">What are you looking for?</h3>
-    <h1 className="text-4xl font-bold text-[#0179C0] mt-2">Apply Now for Success</h1>
-  </div>
+        {/* Section Title */}
+        <div className="text-center mb-10">
+          <h3 className="text-xl text-gray-700 font-medium">What are you looking for?</h3>
+          <h1 className="text-4xl font-bold text-[#0179C0] mt-2">Apply Now for Success</h1>
+        </div>
 
-  {/* Form */}
-  <form className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md flex flex-col gap-6">
-    
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      {/* Name */}
-      <input
-        type="text"
-        placeholder="Name"
-        className="border border-gray-300 placeholder-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600"
-      />
-      
-      {/* Email */}
-      <input
-        type="email"
-        placeholder="Email"
-        className="border border-gray-300 placeholder-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600"
-      />
-      
-      {/* Phone */}
-      <input
-        type="tel"
-        placeholder="Phone"
-        className="border border-gray-300 placeholder-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600"
-      />
-      
-      {/* City */}
-      <input
-        type="text"
-        placeholder="City"
-        className="border border-gray-300 placeholder-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600"
-      />
-    </div>
+        {/* Form */}
+        <form className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md flex flex-col gap-6">
 
-    {/* Position Dropdown */}
-    <select className="border border-gray-300 text-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#048bd6]">
-      <option  value="">Select Position</option>
-      <option value="bde">Business Development Engineer</option>
-      <option value="gis">GIS Engineer</option>
-    </select>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Name */}
+            <input
+              type="text"
+              placeholder="Name"
+              className="border border-gray-300 placeholder-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600"
+            />
 
-    {/* LinkedIn Profile URL */}
-    <input
-      type="url"
-      placeholder="LinkedIn Profile URL"
-      className="border border-gray-300 placeholder-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600"
-    />
+            {/* Email */}
+            <input
+              type="email"
+              placeholder="Email"
+              className="border border-gray-300 placeholder-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600"
+            />
 
-    {/* Submit Button */}
-    <button
-      type="submit"
-      className="bg-[#048bd6] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#048bd6] transition-colors"
-    >
-      Submit
-    </button>
+            {/* Phone */}
+            <input
+              type="tel"
+              placeholder="Phone"
+              className="border border-gray-300 placeholder-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600"
+            />
 
-  </form>
-</div>
+            {/* City */}
+            <input
+              type="text"
+              placeholder="City"
+              className="border border-gray-300 placeholder-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600"
+            />
+          </div>
+
+          {/* Position Dropdown */}
+          <select className="border border-gray-300 text-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#048bd6]">
+            <option value="">Select Position</option>
+            <option value="bde">Business Development Engineer</option>
+            <option value="gis">GIS Engineer</option>
+          </select>
+
+          {/* LinkedIn Profile URL */}
+          <input
+            type="url"
+            placeholder="LinkedIn Profile URL"
+            className="border border-gray-300 placeholder-black rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600"
+          />
+
+          {/* Submit Button */}
+          <button
+            type="submit"
+            className="bg-[#048bd6] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#048bd6] transition-colors"
+          >
+            Submit
+          </button>
+
+        </form>
+      </div>
 
 
 

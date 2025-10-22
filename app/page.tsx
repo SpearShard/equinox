@@ -66,7 +66,7 @@ export default function WhitePage() {
       <div className= " lg:justify-center flex  max-sm:flex-col  pt-[3vw] gap-[2vw]">
         <Image src='https://equinoxsdrones.com/wp-content/uploads/2023/07/about-us-banner1-768x512.png' alt="shape" width={846} height={564} />
         <div className=" max-sm:p-[5vw] max-sm:w-full  w-[30vw]">
-          <h1 className="max-sm:text-[9vw] max-sm:leading-[9vw] text-[2vw] text-[#048BD6] font-bold">We Are equinoxsdrones.</h1>
+          <h1 className="max-sm:text-[9vw] max-sm:leading-[9vw] text-[2vw] text-[#048BD6] font-bold">We Are Mechzilla Technologies.</h1>
           <h2 className="max-sm:text-[8vw] text-[1.5vw] text-black font-bold">About Us</h2>
           <p className="max-sm:text-[5vw] text-[1.3vw] text-black">Endeavoring to deliver innovative data processes and content delivery, our drone survey company in India provides aerial solutions by delivering high-quality Geo-Spatial solutions backed with enhanced speed and precision for both the public and private sectors. We offer highly accurate and detailed GIS Surveying, drone inspection, mining services, flood assessment, crop health monitoring, topographic survey, UAV data processing, 3D mapping, and aerial photography. Our qualified personnel include wind turbine experts. We provide specialized drone services for projects across India and have earned the knowledge and skills to accomplish them through experience, teamwork, and reliable equipment. As one of the best drone companies in India, we excel in drone mapping and surveying, offering top-tier drone mapping services near you. </p>
           <Link
@@ -268,7 +268,7 @@ export default function WhitePage() {
             <div>
               <div className="relative bg-[#0b2a4a] text-white rounded-md p-6">
                 <p className="text-[1rem] leading-relaxed text-center">
-                  Equinox&apos;s drones have revolutionized our inspection processes, enhancing efficiency and safety across our operations. Their cutting-edge technology and reliability have significantly bolstered our asset management capabilities.
+                  Mechzilla Technologies have revolutionized our inspection processes, enhancing efficiency and safety across our operations. Their cutting-edge technology and reliability have significantly bolstered our asset management capabilities.
                 </p>
                 <div className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-0 h-0 border-l-[12px] border-r-[12px] border-t-[12px] border-l-transparent border-r-transparent border-t-[#0b2a4a]" />
               </div>
@@ -293,7 +293,7 @@ export default function WhitePage() {
               <div className="relative bg-[#0b2a4a] text-white rounded-md p-6">
                 <div className="absolute left-1/2 -translate-x-1/2 -top-2 w-0 h-0 border-l-[12px] border-r-[12px] border-b-[12px] border-l-transparent border-r-transparent border-b-[#0b2a4a]" />
                 <p className="text-[1rem] leading-relaxed text-center">
-                  Equinox drones have proven indispensable in our efforts to maintain operational excellence and safety across our vast infrastructure. Their advanced capabilities and precise data analytics have empowered us to make informed decisions swiftly.
+                  Mechzilla Technologies have proven indispensable in our efforts to maintain operational excellence and safety across our vast infrastructure. Their advanced capabilities and precise data analytics have empowered us to make informed decisions swiftly.
                 </p>
               </div>
             </div>
@@ -302,7 +302,7 @@ export default function WhitePage() {
             <div>
               <div className="relative bg-[#0b2a4a] text-white rounded-md p-6">
                 <p className="text-[1rem] leading-relaxed text-center">
-                  Equinox&apos;s drones have set a new standard in industrial inspection for us. With their robust performance and comprehensive data insights, we&apos;ve optimized maintenance schedules and minimized downtime, thereby boosting productivity.
+                  Mechzilla Technologies have set a new standard in industrial inspection for us. With their robust performance and comprehensive data insights, we&apos;ve optimized maintenance schedules and minimized downtime, thereby boosting productivity.
                 </p>
                 <div className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-0 h-0 border-l-[12px] border-r-[12px] border-t-[12px] border-l-transparent border-r-transparent border-t-[#0b2a4a]" />
               </div>
@@ -327,7 +327,7 @@ export default function WhitePage() {
               <div className="relative bg-[#0b2a4a] text-white rounded-md p-6">
                 <div className="absolute left-1/2 -translate-x-1/2 -top-2 w-0 h-0 border-l-[12px] border-r-[12px] border-b-[12px] border-l-transparent border-r-transparent border-b-[#0b2a4a]" />
                 <p className="text-[1rem] leading-relaxed text-center">
-                  Equinox&apos;s drones have seamlessly integrated into our manufacturing processes, providing unparalleled visibility and efficiency gains. Their innovative solutions have been instrumental in improving our quality control and operational agility.
+                  Mechzilla Technologies have seamlessly integrated into our manufacturing processes, providing unparalleled visibility and efficiency gains. Their innovative solutions have been instrumental in improving our quality control and operational agility.
                 </p>
               </div>
             </div>
@@ -336,7 +336,7 @@ export default function WhitePage() {
             <div>
               <div className="relative bg-[#0b2a4a] text-white rounded-md p-6">
                 <p className="text-[1rem] leading-relaxed text-center">
-                  Our collaboration with Equinox has elevated our site inspections and reporting speed. The clarity of their aerial deliverables has greatly accelerated stakeholder decision-making.
+                  Our collaboration with Mechzilla has elevated our site inspections and reporting speed. The clarity of their aerial deliverables has greatly accelerated stakeholder decision-making.
                 </p>
                 <div className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-0 h-0 border-l-[12px] border-r-[12px] border-t-[12px] border-l-transparent border-r-transparent border-t-[#0b2a4a]" />
               </div>
@@ -361,7 +361,7 @@ export default function WhitePage() {
               <div className="relative bg-[#0b2a4a] text-white rounded-md p-6">
                 <div className="absolute left-1/2 -translate-x-1/2 -top-2 w-0 h-0 border-l-[12px] border-r-[12px] border-b-[12px] border-l-transparent border-r-transparent border-b-[#0b2a4a]" />
                 <p className="text-[1rem] leading-relaxed text-center">
-                  The Equinox team consistently delivers accurate maps and models on tight timelines. Their professionalism and attention to detail set a high bar for drone service providers.
+                  The Mechzilla team consistently delivers accurate maps and models on tight timelines. Their professionalism and attention to detail set a high bar for drone service providers.
                 </p>
               </div>
             </div>

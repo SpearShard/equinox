@@ -83,7 +83,7 @@ export default function AboutPage() {
               </div>
               <div className="text mt-[1vw] text-black">
                 <h1>Nation Wide Operation</h1>
-                <p>Expanding our premier drone survey services nationwide, our deliverables have earned the staunch endorsement of numerous private firms and government agencies, reaffirming our offerings&apos; technical excellence and reliability. Be a part of Equinox&apos;s Drones community to keep up the quality of your assets anywhere in India.</p>
+                <p>Expanding our premier drone survey services nationwide, our deliverables have earned the staunch endorsement of numerous private firms and government agencies, reaffirming our offerings&apos; technical excellence and reliability. Be a part of Mechzilla Technology community to keep up the quality of your assets anywhere in India.</p>
               </div>
             </div>
 
@@ -149,7 +149,7 @@ export default function AboutPage() {
 
           <div className=" text bg-white flex justify-center items-center">
             <div className="max-sm:text-[5vw] max-sm:text-left max-sm:p-[5vw] max-sm:w-full w-[70vw] text-[1.5vw] flex flex-col relative bg-white p-[2vw] text-black gap-[2vw] text-center">
-              <h1>Equinox Drones Pvt Ltd. is a flourishing startup founded by Ashish Aman(CEO). Headquartered in the ‘Silicon Valley’ of India, the company continues its primary operations from Bangalore, Karnataka. Awarded as the best drone company in 2019 and best Drone Tech Company in 2023. We continue to yield the utmost quality in drone surveys.</h1>
+              <h1>Mechzilla Technology Pvt Ltd. is a flourishing startup founded by Ashish Aman(CEO). Headquartered in the ‘Silicon Valley’ of India, the company continues its primary operations from Bangalore, Karnataka. Awarded as the best drone company in 2019 and best Drone Tech Company in 2023. We continue to yield the utmost quality in drone surveys.</h1>
               <h1>With more than ten years of experience and expertise in drone technology, collective wisdom and capabilities are invested in projects to accomplish the maximum potential of our client’s vision. Consistent and unsurpassed aerial service personnel, modern equipment and essential software are a few of our prized possessions.</h1>
               <h1>With more than 15 dedicated teams strategically positioned throughout India, we have completed over 500 projects, encompassing an impressive 1 Lakh+ acres of land in a relatively short time frame. Our project begins with comprehensive R&D, followed by innovative data processing & content delivery at competitive prices and significant accuracy. Thoroughly trained and licensed professionals work tirelessly to ensure that the required services are swiftly delivered. Moreover, as one of the best drone companies in Bangalore, our commitment to excellence and pioneering solutions continues to drive our success.</h1>
             </div>

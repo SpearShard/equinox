@@ -62,7 +62,7 @@ export default function ContactPage() {
               <div className="text-slate-800 font-medium mb-2">Or Drop us an Email</div>
               <Link href="mailto:business@equinoxsdrones.com" className="inline-flex items-center gap-3 rounded-md bg-[#038BD5] text-white px-5 py-3">
                 <Mail className="w-4 h-4" />
-                business@equinoxsdrones.com
+                business@Mechzillatechnologies.com
               </Link>
             </div>
 
@@ -70,7 +70,7 @@ export default function ContactPage() {
               <div className="text-slate-800 font-medium mb-2">Visit our office</div>
               <div className="inline-flex items-center gap-3 rounded-md bg-[#038BD5] text-white px-5 py-3">
                 <Building2 className="w-4 h-4" />
-                equinoxs drones, indira nagar
+                MechzillaTechnologies, Bengaluru, Karnataka
               </div>
             </div>
           </div>

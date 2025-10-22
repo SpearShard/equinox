@@ -65,7 +65,7 @@ export default function Nav() {
                       width={40}
                       height={40}
                       />
-            equinoxsdrones
+            Mechzilla Technologies
           </Link>
           <div ref={navRef} className="flex items-center gap-3">
             {/* Mobile hamburger - visible on small screens */}
@@ -102,9 +102,9 @@ export default function Nav() {
 
               <div className={`${openMenu === "services" ? "block" : "hidden"} absolute left-0 top-full mt-2 w-72 bg-white border border-slate-200 rounded-xl shadow-xl p-2`}>
                 <Link href="/services/surveying-mapping" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Surveying/Mapping</Link>
-                <Link href="/services/aerial-inspection-analysis" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Aerial Inspection & Analysis</Link>
+                {/* <Link href="/services/aerial-inspection-analysis" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Aerial Inspection & Analysis</Link>
                 <Link href="/services/uav-data-processing" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">UAV Data Processing</Link>
-                <Link href="/services/creative-aerial-content" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Creative Aerial Content</Link>
+                <Link href="/services/creative-aerial-content" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Creative Aerial Content</Link> */}
               </div>
             </div>
 
@@ -123,12 +123,12 @@ export default function Nav() {
               <div className={`${openMenu === "industries" ? "block" : "hidden"} absolute left-0 top-full mt-2 w-72 bg-white border border-slate-200 rounded-xl shadow-xl p-2`}>
                 <Link href="/industries/transportation" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Transportation</Link>
                 <Link href="/industries/renewable-energy" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Renewable Energy</Link>
-                <Link href="/industries/mining" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Mining</Link>
+                {/* <Link href="/industries/mining" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Mining</Link>
                 <Link href="/industries/utilities" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Utilities</Link>
                 <Link href="/industries/infrastructure" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Infrastructure</Link>
                 <Link href="/industries/agriculture" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Agriculture</Link>
                 <Link href="/industries/real-estate" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Real Estate</Link>
-                <Link href="/industries/oil-and-gas" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Oil and Gas</Link>
+                <Link href="/industries/oil-and-gas" onClick={() => setOpenMenu(null)} className="block px-3 py-2 rounded-lg hover:bg-slate-50 text-slate-800">Oil and Gas</Link> */}
               </div>
             </div>
 
